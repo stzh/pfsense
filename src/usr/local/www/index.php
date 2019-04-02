@@ -469,7 +469,7 @@ foreach ($widgets as $widgetkey => $widgetconfig) {
 require_once("copyget.inc");
 
 if (file_exists("{$g['cf_conf_path']}/copynotice_display")) {
-	require_once("copynotice.inc");
+	//require_once("copynotice.inc");
 	@unlink("{$g['cf_conf_path']}/copynotice_display");
 }
 
