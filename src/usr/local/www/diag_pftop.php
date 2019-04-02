@@ -21,14 +21,14 @@
 
 ##|+PRIV
 ##|*IDENT=page-diagnostics-system-pftop
-##|*NAME=Diagnostics: pfTop
-##|*DESCR=Allows access to the 'Diagnostics: pfTop' page
+##|*NAME=Diagnostics: Top
+##|*DESCR=Allows access to the 'Diagnostics: Top' page
 ##|*MATCH=diag_pftop.php*
 ##|-PRIV
 
 require_once("guiconfig.inc");
 
-$pgtitle = array(gettext("Diagnostics"), gettext("pfTop"));
+$pgtitle = array(gettext("Diagnostics"), gettext("Top"));
 $pftop = "/usr/local/sbin/pftop";
 
 $sorttypes = array('age', 'bytes', 'dest', 'dport', 'exp', 'none', 'pkt', 'sport', 'src');
@@ -102,7 +102,7 @@ $form->addGlobal(new Form_Input(
 	'hidden',
 	'yes'
 ));
-$section = new Form_Section('pfTop Configuration');
+$section = new Form_Section('Top Configuration');
 
 $validViews = array(
 	'default' => gettext('default'),
