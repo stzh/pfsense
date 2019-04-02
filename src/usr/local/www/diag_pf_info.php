@@ -21,14 +21,14 @@
 
 ##|+PRIV
 ##|*IDENT=page-diagnostics-pf-info
-##|*NAME=Diagnostics: pfInfo
-##|*DESCR=Allows access to the 'Diagnostics: pfInfo' page
+##|*NAME=Diagnostics: Info
+##|*DESCR=Allows access to the 'Diagnostics: Info' page
 ##|*MATCH=diag_pf_info.php*
 ##|-PRIV
 
 require_once("guiconfig.inc");
 
-$pgtitle = array(gettext("Diagnostics"), gettext("pfInfo"));
+$pgtitle = array(gettext("Diagnostics"), gettext("Info"));
 
 if (stristr($_POST['Submit'], gettext("No"))) {
 	header("Location: index.php");
