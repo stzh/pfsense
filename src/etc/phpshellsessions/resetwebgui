@@ -21,7 +21,7 @@
 global $config;
 
 $config = parse_config(true);
-$default_theme = "pfSense.css";
+$default_theme = "HHFW.css";
 $default_columns = 2;
 $default_widgets = "system_information:col1:show,interfaces:col2:show";
 
