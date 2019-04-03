@@ -251,7 +251,7 @@ function display_login_form() {
 	// For the login form, get the settings of no particular user.
 	// That ensures we will use the system default theme for the login form.
 	$user_settings = get_user_settings("");
-	$cssfile = "/css/pfSense.css";
+	$cssfile = "/css/HHFW.css";
 
 	if (isset($user_settings['webgui']['webguicss'])) {
 		if (file_exists("/usr/local/www/css/" . $user_settings['webgui']['webguicss'])) {
