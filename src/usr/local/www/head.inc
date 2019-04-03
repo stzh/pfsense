@@ -36,7 +36,7 @@ if ($user_settings['webgui']['pagenamefirst']) {
 	$tabtitle = htmlspecialchars($system_url) . " - " . $pagetitle;
 }
 
-$cssfile = "/css/pfSense.css";
+$cssfile = "/css/HHFW.css";
 
 if (isset($user_settings['webgui']['webguicss'])) {
 	if (file_exists("/usr/local/www/css/" . $user_settings['webgui']['webguicss'])) {
@@ -404,8 +404,8 @@ $diagnostics_menu[] = array(gettext("NDP Table"), "/diag_ndp.php");
 $diagnostics_menu[] = array(gettext("Tables"), "/diag_tables.php");
 $diagnostics_menu[] = array(gettext("Ping"), "/diag_ping.php");
 $diagnostics_menu[] = array(gettext("Test Port"), "/diag_testport.php");
-$diagnostics_menu[] = array(gettext("Info"), "/diag_pf_info.php");
-$diagnostics_menu[] = array(gettext("Top"), "/diag_pftop.php");
+$diagnostics_menu[] = array(gettext("pfInfo"), "/diag_pf_info.php");
+$diagnostics_menu[] = array(gettext("pfTop"), "/diag_pftop.php");
 $diagnostics_menu[] = array(gettext("Reboot"), "/diag_reboot.php");
 $diagnostics_menu[] = array(gettext("Routes"), "/diag_routes.php");
 $diagnostics_menu[] = array(gettext("S.M.A.R.T. Status"), "/diag_smart.php");
