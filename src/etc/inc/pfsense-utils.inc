@@ -217,7 +217,7 @@ function gen_webguicss_field(&$section, $value) {
 	$csslist = get_css_files();
 
 	if (!isset($csslist[$value])) {
-		$value = "pfSense.css";
+		$value = "HHFW.css";
 	}
 
 	$section->addInput(new Form_Select(
