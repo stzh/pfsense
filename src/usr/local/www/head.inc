@@ -391,7 +391,7 @@ $diagnostics_menu[] = array(gettext("Authentication"), "/diag_authentication.php
 $diagnostics_menu[] = array(htmlspecialchars(gettext("Backup & Restore")), "/diag_backup.php");
 $diagnostics_menu[] = array(gettext("Command Prompt"), "/diag_command.php");
 $diagnostics_menu[] = array(gettext("DNS Lookup"), "/diag_dns.php");
-$diagnostics_menu[] = array(gettext("Edit File"), "/diag_edit.php");
+//$diagnostics_menu[] = array(gettext("Edit File"), "/diag_edit.php");
 $diagnostics_menu[] = array(gettext("Factory Defaults"), "/diag_defaults.php");
 
 if (file_exists("/var/run/gmirror_active")) {
