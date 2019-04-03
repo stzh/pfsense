@@ -240,7 +240,7 @@ $ext_menu_path_data = read_ext_menu_path_data();
 $system_menu = array();
 $system_menu[] = array(gettext("Logout") . " (" . $_SESSION['Username'] . ")", "/index.php?logout");
 $system_menu[] = array(gettext("Advanced"), "/system_advanced_admin.php");
-$system_menu[] = array(gettext("Update"), "/pkg_mgr_install.php?id=firmware");
+//$system_menu[] = array(gettext("Update"), "/pkg_mgr_install.php?id=firmware");
 $system_menu[] = array(gettext("General Setup"), "/system.php");
 $system_menu[] = array(gettext("High Avail. Sync"), "/system_hasync.php");
 $system_menu[] = array(gettext("Package Manager"), "/pkg_mgr_installed.php");
