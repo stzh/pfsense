@@ -123,14 +123,14 @@ $priv_list['page-diagnostics-packetcapture']['match'] = array();
 $priv_list['page-diagnostics-packetcapture']['match'][] = "diag_packet_capture.php*";
 
 $priv_list['page-diagnostics-pf-info'] = array();
-$priv_list['page-diagnostics-pf-info']['name'] = gettext("WebCfg - Diagnostics: Info");
-$priv_list['page-diagnostics-pf-info']['descr'] = gettext("Allows access to the 'Diagnostics: Info' page");
+$priv_list['page-diagnostics-pf-info']['name'] = gettext("WebCfg - Diagnostics: pfInfo");
+$priv_list['page-diagnostics-pf-info']['descr'] = gettext("Allows access to the 'Diagnostics: pfInfo' page");
 $priv_list['page-diagnostics-pf-info']['match'] = array();
 $priv_list['page-diagnostics-pf-info']['match'][] = "diag_pf_info.php*";
 
 $priv_list['page-diagnostics-system-pftop'] = array();
-$priv_list['page-diagnostics-system-pftop']['name'] = gettext("WebCfg - Diagnostics: Top");
-$priv_list['page-diagnostics-system-pftop']['descr'] = gettext("Allows access to the 'Diagnostics: Top' page");
+$priv_list['page-diagnostics-system-pftop']['name'] = gettext("WebCfg - Diagnostics: pfTop");
+$priv_list['page-diagnostics-system-pftop']['descr'] = gettext("Allows access to the 'Diagnostics: pfTop' page");
 $priv_list['page-diagnostics-system-pftop']['match'] = array();
 $priv_list['page-diagnostics-system-pftop']['match'][] = "diag_pftop.php*";
 
