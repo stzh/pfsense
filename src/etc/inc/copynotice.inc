@@ -47,11 +47,11 @@ $copyrightfile = "{$g['cf_conf_path']}/copyright";
 				require_once($copyrightfile);
 			} else {
 				print("<div class=\"modal-body\" style=\"background-color:#1e3f75; color:white;\">");
-				print(gettext("<p align=\"center\"><font size=\"3\">Copyright &copy; 2004-2018. Electric Sheep Fencing LLC (\"ESF\"). All Rights Reserved.</p>
-					<p align=\"center\"><strong>NO COMMERCIAL DISTRIBUTION OF THE PFSENSE&reg; CE SOFTWARE IS ALLOWED.</strong>
+				print(gettext("<p align=\"center\"><font size=\"3\">Copyright &copy; 2004-2049. HuaHan. All Rights Reserved.</p>
+					<p align=\"center\"><strong>NO COMMERCIAL DISTRIBUTION OF THE HHFW&reg; CE SOFTWARE IS ALLOWED.</strong>
 					</p>
-					<p>pfSense&reg; is a federally and internationally registered trademark and service mark of ESF, and is exclusively licensed to Rubicon Communications, LLC (d/b/a Netgate) (\"Netgate\").</p>
-					<p>Any unauthorized use of the pfSense&reg; mark is prohibited by United States and international law. Please refer to the Netgate <a href=\"https://www.pfsense.org/trademarks.html\" target=\"_blank\"> Trademark Usage Guidelines</a> for how to properly use the mark.</p>
+					<p>HHFW&reg; is a federally and internationally registered trademark and service mark of HuaHan, and is exclusively licensed to HuaHan.</p>
+					<p>Any unauthorized use of the HHFW&reg; mark is prohibited by local and international law. Please refer to the HuaHan <a href=\"http://cnhuahan.com\" target=\"_blank\"> Trademark Usage Guidelines</a> for how to properly use the mark.</p>
 					</div>
 					<div class=\"modal-footer\" style=\"background-color:#1e3f75; color:white;\">
 					<button type=\"button\" class=\"btn btn-xs btn-success\" data-dismiss=\"modal\" aria-label=\"Close\">
