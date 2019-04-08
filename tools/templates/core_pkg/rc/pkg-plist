@@ -1,4 +1,4 @@
-/etc/pfSense-rc
-/etc/pfSense-rc.shutdown
+/etc/HHFW-rc
+/etc/HHFW-rc.shutdown
 /etc/rc
 @shell /etc/rc.initial
