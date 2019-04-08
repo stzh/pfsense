@@ -47,8 +47,8 @@ Options:
 
 Environment:
 	TMPDIR       -- Temporary directory (default: /tmp)
-	PRODUCT_NAME -- Product name (default: pfSense)
-	PRODUCT_URL  -- Product URL (default: https://www.pfsense.org)
+	PRODUCT_NAME -- Product name (default: HHFW)
+	PRODUCT_URL  -- Product URL (default: http://cnhuahan.com)
 END
 	exit 1
 }
@@ -101,8 +101,8 @@ done
 	&& err "destination path already exists and is not a directory"
 
 : ${TMPDIR=/tmp}
-: ${PRODUCT_NAME=pfSense}
-: ${PRODUCT_URL=http://www.pfsense.org/}
+: ${PRODUCT_NAME=HHFW}
+: ${PRODUCT_URL=http://cnhuahan.com}
 
 [ -d $destdir ] \
 	|| mkdir -p ${destdir}
