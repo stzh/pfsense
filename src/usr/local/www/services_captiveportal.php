@@ -647,7 +647,7 @@ $section->addInput(new Form_Checkbox(
 	'Disable MAC filtering',
 	$pconfig['nomacfilter']
 ))->setHelp('If enabled no attempts will be made to ensure that the MAC address of clients stays the same while they are logged in. ' .
-			'This is required when the MAC address of the client cannot be determined (usually because there are routers between pfSense and the clients). ' .
+			'This is required when the MAC address of the client cannot be determined (usually because there are routers between HHFW and the clients). ' .
 			'If this is enabled, RADIUS MAC authentication cannot be used.');
 
 $section->addInput(new Form_Checkbox(
