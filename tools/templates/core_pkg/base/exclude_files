@@ -16,6 +16,8 @@
 ./etc/dh-parameters.4096
 ./etc/fstab
 ./etc/group
+./etc/HHFW-rc
+./etc/HHFW-rc.shutdown
 ./etc/hosts
 ./etc/master.passwd
 ./etc/passwd
