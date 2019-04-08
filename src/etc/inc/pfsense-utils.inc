@@ -172,7 +172,7 @@ function pfSenseHeader($text) {
 function get_css_files() {
 	$csslist = array();
 
-	// List pfSense files, then any BETA files followed by any user-contributed files
+	// List HHFW files, then any BETA files followed by any user-contributed files
 	$cssfiles = glob("/usr/local/www/css/*.css");
 
 	if (is_array($cssfiles)) {
@@ -185,7 +185,7 @@ function get_css_files() {
 			    strpos($css, "logo") == 0) {
 				if (strpos($css, "BETA") != 0) {
 					array_push($betacss, $css);
-				} else if (strpos($css, "pfSense") != 0) {
+				} else if (strpos($css, "HHFW") != 0) {
 					array_push($pfscss, $css);
 				} else {
 					array_push($usrcss, $css);
@@ -2768,7 +2768,7 @@ function get_country_name($country_code = "ALL") {
 		return "";
 	}
 
-	$country_names_xml = "/usr/local/share/pfSense/iso_3166-1_list_en.xml";
+	$country_names_xml = "/usr/local/share/HHFW/iso_3166-1_list_en.xml";
 	$country_names_contents = file_get_contents($country_names_xml);
 	$country_names = xml2array($country_names_contents);
 
@@ -3064,9 +3064,9 @@ function set_language() {
 
 	putenv("LANG={$lang}");
 	setlocale(LC_ALL, $lang);
-	textdomain("pfSense");
-	bindtextdomain("pfSense", "/usr/local/share/locale");
-	bind_textdomain_codeset("pfSense", $lang);
+	textdomain("HHFW");
+	bindtextdomain("HHFW", "/usr/local/share/locale");
+	bind_textdomain_codeset("HHFW", $lang);
 }
 
 function get_locale_list() {
