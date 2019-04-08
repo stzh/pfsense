@@ -1747,7 +1747,7 @@ function system_ntp_configure() {
 	}
 
 	$ntpcfg = "# \n";
-	$ntpcfg .= "# pfSense ntp configuration file \n";
+	$ntpcfg .= "# HHFW ntp configuration file \n";
 	$ntpcfg .= "# \n\n";
 	$ntpcfg .= "tinker panic 0 \n";
 
