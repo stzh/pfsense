@@ -185,7 +185,7 @@ if ($_REQUEST['newver'] != "") {
 	$data = $data_split[1];
 
 	if (!tagfile_deformat($data, $data, "config.xml")) {
-		$input_errors[] = "The downloaded file does not appear to contain an encrypted pfSense configuration.";
+		$input_errors[] = "The downloaded file does not appear to contain an encrypted HHFW configuration.";
 	}
 
 	$out = decrypt_data($data, $decrypt_password);
@@ -223,7 +223,7 @@ if ($_REQUEST['newver'] != "") {
 	if (!$input_errors && $data) {
 		conf_mount_rw();
 		if (config_restore("/tmp/config_restore.xml") == 0) {
-			$savemsg = "Successfully reverted the pfSense configuration to revision " . urldecode($_REQUEST['newver']) . ".";
+			$savemsg = "Successfully reverted the HHFW configuration to revision " . urldecode($_REQUEST['newver']) . ".";
 			$savemsg .= <<<EOF
 			<br />
 		<form action="diag_reboot.php" method="post">
@@ -271,9 +271,9 @@ if ($_REQUEST['download']) {
 
 	if (!tagfile_deformat($data, $data1, "config.xml")) {
 		if ($legacy) {
-			$input_errors[] = "The downloaded file does not appear to contain an encrypted pfSense configuration.";
+			$input_errors[] = "The downloaded file does not appear to contain an encrypted HHFW configuration.";
 		} else {
-			$input_errors[] = "The downloaded file does not appear to contain an encrypted pfSense configuration.";
+			$input_errors[] = "The downloaded file does not appear to contain an encrypted HHFW configuration.";
 		}
 	} else {
 		$ds = explode('++++', $data);
@@ -285,7 +285,7 @@ if ($_REQUEST['download']) {
 		$data = $ds[1];
 		$configtype = "Encrypted";
 		if (!tagfile_deformat($data, $data, "config.xml")) {
-			$input_errors[] = "The downloaded file does not appear to contain an encrypted pfSense configuration.";
+			$input_errors[] = "The downloaded file does not appear to contain an encrypted HHFW configuration.";
 		}
 		$data = decrypt_data($data, $decrypt_password);
 		if (!strstr($data, "pfsense")) {
@@ -577,7 +577,7 @@ endif; ?>
 			<div class="modal-body">
 <?php
 
-		print(gettext("<p align=\"center\"><strong>pfSense&copy; &quot;Gold&quot; configuration backup system access.</strong>
+		print(gettext("<p align=\"center\"><strong>HHFW&copy; &quot;Gold&quot; configuration backup system access.</strong>
 			</p>
 			<p>The &quot;Gold&quot; backup system may be available to allow the retrieval of older backups</p>
 			<p>Note that because these backups were stored by hostname AND username, the configured username, hostname and password will be transmitted (via HTTPS) to the server. By clicking &quot;OK&quot;
