@@ -402,7 +402,7 @@ if ($_POST) {
 									$config['diag']['ipv6nat'] = true;
 									write_config(gettext("Imported m0n0wall configuration"));
 									convert_config();
-									$savemsg = gettext("The m0n0wall configuration has been restored and upgraded to pfSense.");
+									$savemsg = gettext("The m0n0wall configuration has been restored and upgraded to HHFW.");
 									mark_subsystem_dirty("restore");
 								}
 								if (is_array($config['captiveportal'])) {
