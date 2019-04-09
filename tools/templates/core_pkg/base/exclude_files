@@ -21,8 +21,6 @@
 ./etc/hosts
 ./etc/master.passwd
 ./etc/passwd
-./etc/pfSense-rc
-./etc/pfSense-rc.shutdown
 ./etc/platform
 ./etc/pwd.db
 ./etc/rc
