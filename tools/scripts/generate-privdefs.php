@@ -36,7 +36,7 @@ if (count($argv) < 2) {
 	echo "\n";
 	echo "Examples:\n";
 	echo "#generate-privdefs /\n";
-	echo "#generate-privdefs /home/pfsense/src/\n";
+	echo "#generate-privdefs /home/HHFW/src/\n";
 	echo "\n";
 	exit -1;
 }
