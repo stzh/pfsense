@@ -3064,9 +3064,9 @@ function set_language() {
 
 	putenv("LANG={$lang}");
 	setlocale(LC_ALL, $lang);
-	textdomain("HHFW");
-	bindtextdomain("HHFW", "/usr/local/share/locale");
-	bind_textdomain_codeset("HHFW", $lang);
+	textdomain("pfSense");
+	bindtextdomain("pfSense", "/usr/local/share/locale");
+	bind_textdomain_codeset("pfSense", $lang);
 }
 
 function get_locale_list() {
