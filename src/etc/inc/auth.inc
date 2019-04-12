@@ -2078,7 +2078,7 @@ function print_credit() {
 
 	return  '<a target="_blank" href="http://cnhuahan.com">' . $g["product_name"] . '</a>' .
 			gettext(' is developed and maintained by ') .
-			'<a target="_blank" href="http://cnhuahan.com">HuaHan. </a>' . ' &copy; ESF ' . $g["product_copyright_years"] .
+			'<a target="_blank" href="http://cnhuahan.com">HuaHan. </a>' . $g["product_copyright_years"] .
 			/*'<a target="_blank" href="https://pfsense.org/license">' .
 			gettext(' View license.') .*/ '</a>';
 }
