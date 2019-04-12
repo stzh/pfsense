@@ -22404,7 +22404,7 @@ msgstr "NDP表"
 
 #: src/usr/local/www/head.inc:407 src/usr/local/www/diag_pf_info.php:31
 msgid "pfInfo"
-msgstr "pfsense信息"
+msgstr "pf信息"
 
 #: src/usr/local/www/head.inc:411 src/usr/local/www/diag_smart.php:36
 #: src/usr/local/www/widgets/include/smart_status.inc:23
@@ -22449,7 +22449,7 @@ msgstr "通知"
 msgid ""
 "%sWARNING:%s The 'admin' account password is set to the default value.  %s "
 "Change the password in the User Manager.%s"
-msgstr ""
+msgstr "%s警告：%s 'admin'用户使用了默认密码。%s在用户管理页面更改密码。%s"
 
 #: src/usr/local/www/head.inc:584
 msgid "Save dashboard layout"
