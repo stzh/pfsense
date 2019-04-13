@@ -968,7 +968,7 @@ $section->addInput(new Form_Checkbox(
 	'Traffic quota',
 	'Use RADIUS HHFW-Max-Total-Octets attribute',
 	$pconfig['radiustraffic_quota']
-))->setHelp('When enabled, clients will be disconnected after exceeding the amount of traffic, inclusive of both downloads and uploads, retrieved from the RADIUS pfSense-Max-Total-Octets attribute.');
+))->setHelp('When enabled, clients will be disconnected after exceeding the amount of traffic, inclusive of both downloads and uploads, retrieved from the RADIUS HHFW-Max-Total-Octets attribute.');
 
 $section->addInput(new Form_Checkbox(
 	'radiusperuserbw',
