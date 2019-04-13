@@ -290,7 +290,7 @@ $section->addInput(new Form_Input(
 	'text',
 	$pconfig['hint']
 ))->setHelp("You may optionally provide an identifier which will be stored in plain text along with each encrypted backup. " .
-			"This may allow the Netgate support team to locate your key should you lose it.");
+			"This may allow the support team to locate your key should you lose it.");
 
 $form->add($section);
 
