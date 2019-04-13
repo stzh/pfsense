@@ -4302,10 +4302,10 @@ msgstr "将通过DHCPv6广播这个路由器无状态自动配置及其他配置
 
 #: src/usr/local/www/services_router_advertisements.php:123
 msgid ""
-"It is not required to activate DHCPv6 server on pfSense when set to "
+"It is not required to activate DHCPv6 server on HHFW when set to "
 "\"Managed\", \"Assisted\" or \"Stateless DHCP\", it can be another host on "
 "the network."
-msgstr "当设置为\"已管理\", \"已协助\" 或\"无状态DHCP\"时，不需要在pfSense上激活DHCPv6服务器，它可以是网络上的另一台主机。"
+msgstr "当设置为\"已管理\", \"已协助\" 或\"无状态DHCP\"时，不需要在HHFW上激活DHCPv6服务器，它可以是网络上的另一台主机。"
 
 #: src/usr/local/www/services_router_advertisements.php:150
 #, php-format
@@ -5374,7 +5374,7 @@ msgstr "嵌入式平台的用户：请耐心等待，向导将比正常的GUI运
 #: src/usr/local/www/index.php:204
 #, php-format
 msgid "To bypass the wizard, click on the %s logo on the initial page."
-msgstr "绕过向导，单击 %s 的初始页面上的pfsense图标。"
+msgstr "绕过向导，单击初始页面上的%s图标。"
 
 #: src/usr/local/www/index.php:325 src/usr/local/www/head.inc:351
 msgid "Dashboard"
@@ -7925,11 +7925,11 @@ msgstr "*系统域本地区域类型"
 
 #: src/usr/local/www/services_unbound.php:374
 msgid ""
-"The local-zone type used for the pfSense system domain (System | General "
+"The local-zone type used for the HHFW system domain (System | General "
 "Setup | Domain).  Transparent is the default.  Local-Zone type descriptions "
 "are available in the unbound.conf(5) manual pages."
 msgstr ""
-"用于pfSense系统域（系统-常规设置-域）的本地类型。 留空则使用默认值。 本地区域类型描述可在unbound.conf（5）手册页中找到。"
+"用于HHFW系统域（系统-常规设置-域）的本地类型。 留空则使用默认值。 本地区域类型描述可在unbound.conf（5）手册页中找到。"
 
 #: src/usr/local/www/services_unbound.php:378
 msgid "DNSSEC"
@@ -8159,7 +8159,7 @@ msgstr ""
 
 #: src/usr/local/www/services_acb.php:556
 msgid ""
-"Current count of hosted backups for this hostname on portal.pfsense.org"
+"Current count of hosted backups for this hostname on portal.hhfw.org"
 msgstr ""
 
 #: src/usr/local/www/services_acb.php:558
@@ -8168,7 +8168,7 @@ msgstr ""
 
 #: src/usr/local/www/services_acb.php:580
 msgid ""
-"<p align=\"center\"><strong>pfSense&copy; &quot;Gold&quot; configuration "
+"<p align=\"center\"><strong>HHFW&copy; &quot;Gold&quot; configuration "
 "backup system access.</strong>\n"
 "\t\t\t</p>\n"
 "\t\t\t<p>The &quot;Gold&quot; backup system may be available to allow the "
@@ -8655,8 +8655,8 @@ msgstr "以X.509 PEM格式粘贴证书签名请求。"
 #: src/usr/local/www/system_certmanager.php:713
 msgid ""
 "Optionally paste a private key here. The key will be associated with the "
-"newly signed certificate in pfSense"
-msgstr "可选择在此处粘贴私钥。 密钥将与pfSense中新签署的证书相关联"
+"newly signed certificate in HHFW"
+msgstr "可选择在此处粘贴私钥。 密钥将与HHFW中新签署的证书相关联"
 
 #: src/usr/local/www/system_certmanager.php:717
 msgid "*Certificate Lifetime (days)"
@@ -9163,8 +9163,8 @@ msgid "Could not parse %1$s/wizards/%2$s file."
 msgstr "无法解析 %1$s/wizards/%2$s 文件。"
 
 #: src/usr/local/www/wizard.php:117
-msgid "Configuration changed via the pfSense wizard subsystem."
-msgstr "配置通过pfSense向导子系统更改。"
+msgid "Configuration changed via the HHFW wizard subsystem."
+msgstr "配置通过HHFW向导子系统更改。"
 
 #: src/usr/local/www/wizard.php:215
 msgid "Wizard"
@@ -10453,14 +10453,14 @@ msgid "Installation Feedback"
 msgstr "安装反馈"
 
 #: src/usr/local/www/system_advanced_misc.php:612
-msgid "Netgate Device ID"
+msgid "Device ID"
 msgstr "网关设备ID"
 
 #: src/usr/local/www/system_advanced_misc.php:615
 msgid ""
-"Enable this option to not send Netgate Device ID to pfSense as part of User-"
+"Enable this option to not send Device ID to HHFW as part of User-"
 "Agent header."
-msgstr "启用此选项不会将网关设备ID作为用户代理头部的一部分发送到pfSense。"
+msgstr "启用此选项不会将网关设备ID作为用户代理头部的一部分发送到HHFW。"
 
 #: src/usr/local/www/system_advanced_misc.php:621
 msgid ""
@@ -11707,7 +11707,7 @@ msgstr ""
 #: src/usr/local/www/services_acb_settings.php:292
 msgid ""
 "You may optionally provide an identifier which will be stored in plain text "
-"along with each encrypted backup. This may allow the Netgate support team to "
+"along with each encrypted backup. This may allow the support team to "
 "locate your key should you lose it."
 msgstr ""
 
@@ -11839,9 +11839,9 @@ msgstr "两次输入密码必须一致。"
 #: src/usr/local/www/services_captiveportal_vouchers.php:309
 #, php-format
 msgid ""
-"The Captive Portal voucher database has been synchronized with %s (pfsense."
+"The Captive Portal voucher database has been synchronized with %s (hhfw."
 "exec_php)."
-msgstr "入网门户凭证数据库已与%s（pfsense.exec_php）同步。"
+msgstr "入网门户凭证数据库已与%s（hhfw.exec_php）同步。"
 
 #: src/usr/local/www/services_captiveportal_vouchers.php:341
 #, php-format
@@ -14190,13 +14190,13 @@ msgstr "警告！无法读取%s文件！"
 
 #: src/usr/local/www/diag_backup.php:253
 msgid ""
-"The uploaded file does not appear to contain an encrypted pfsense "
+"The uploaded file does not appear to contain an encrypted hhfw "
 "configuration."
-msgstr "上传的文件似乎不包含加密的pfsense配置。"
+msgstr "上传的文件似乎不包含加密的hhfw配置。"
 
 #: src/usr/local/www/diag_backup.php:260
-msgid "Upgrading m0n0wall configuration to pfsense."
-msgstr "将m0n0wall配置升级到pfsense。"
+msgid "Upgrading m0n0wall configuration to HHFW."
+msgstr "将m0n0wall配置升级到HHFW。"
 
 #: src/usr/local/www/diag_backup.php:275 src/usr/local/www/diag_backup.php:278
 msgid ""
@@ -14239,8 +14239,8 @@ msgid "Imported m0n0wall configuration"
 msgstr "导入m0n0wall配置"
 
 #: src/usr/local/www/diag_backup.php:403
-msgid "The m0n0wall configuration has been restored and upgraded to pfSense."
-msgstr "m0n0wall配置已经恢复，并已经升级转换到pfSense了"
+msgid "The m0n0wall configuration has been restored and upgraded to HHFW."
+msgstr "m0n0wall配置已经恢复，并已经升级转换到HHFW了"
 
 #: src/usr/local/www/diag_backup.php:431
 msgid "The configuration could not be restored."
@@ -14292,7 +14292,7 @@ msgstr "防火墙配置已更改。"
 
 #: src/usr/local/www/diag_backup.php:517
 msgid "The firewall is now rebooting."
-msgstr "pfsense防火墙正在重新启动"
+msgstr "防火墙正在重新启动"
 
 #: src/usr/local/www/diag_backup.php:531
 msgid "Backup Configuration"
@@ -16770,10 +16770,10 @@ msgstr "主控制台"
 #: src/usr/local/www/system_advanced_admin.php:699
 msgid ""
 "Select the preferred console if multiple consoles are present. The preferred "
-"console will show pfSense boot script output. All consoles display OS boot "
+"console will show HHFW boot script output. All consoles display OS boot "
 "messages, console messages, and the console menu."
 msgstr ""
-"如果存在多个控制台，请选择首选控制台。 首选控制台将显示pfSense启动脚本输出。 所有控制台都显示系统启动消息、控制台消息和控制台菜单。"
+"如果存在多个控制台，请选择首选控制台。 首选控制台将显示HHFW启动脚本输出。 所有控制台都显示系统启动消息、控制台消息和控制台菜单。"
 
 #: src/usr/local/www/system_advanced_admin.php:705
 msgid "Console Options"
@@ -20674,7 +20674,7 @@ msgstr ""
 
 #: src/usr/local/www/crash_reporter.php:112
 msgid ""
-"Debugging output can be collected to share with pfSense developers or others "
+"Debugging output can be collected to share with HHFW developers or others "
 "providing support or assistance."
 msgstr ""
 
@@ -20895,11 +20895,11 @@ msgstr "GPS类型"
 #, php-format
 msgid ""
 "This option allows a predefined configuration to be selected. Default is the "
-"configuration of pfSense 2.1 and earlier (not recommended). Select Generic "
+"configuration of HHFW 2.1 and earlier (not recommended). Select Generic "
 "if the GPS is not listed.%1$sThe predefined configurations assume the GPS "
 "has already been set to NMEA mode."
 msgstr ""
-"此选项允许选择预定义配置。 默认是pfSense 2.1和更早版本的配置（不推荐）。 "
+"此选项允许选择预定义配置。 默认是HHFW 2.1和更早版本的配置（不推荐）。 "
 "如果未列出GPS，请选择Generic。%1$s默认配置假定GPS已设置为NMEA模式。"
 
 #: src/usr/local/www/services_ntpd_gps.php:366
@@ -21893,10 +21893,10 @@ msgid ""
 "If enabled no attempts will be made to ensure that the MAC address of "
 "clients stays the same while they are logged in. This is required when the "
 "MAC address of the client cannot be determined (usually because there are "
-"routers between pfSense and the clients). If this is enabled, RADIUS MAC "
+"routers between HHFW and the clients). If this is enabled, RADIUS MAC "
 "authentication cannot be used."
 msgstr ""
-"如果启用，将不会尝试确保客户端的MAC地址在登录时保持不变。当无法确定客户端的MAC地址（通常是因为pfSense和客户端之间存在路由器）时，这是必需的。 "
+"如果启用，将不会尝试确保客户端的MAC地址在登录时保持不变。当无法确定客户端的MAC地址（通常是因为HHFW和客户端之间存在路由器）时，这是必需的。 "
 "如果启用，则不能使用RADIUS MAC身份验证。"
 
 #: src/usr/local/www/services_captiveportal.php:655
@@ -22194,7 +22194,7 @@ msgstr ""
 msgid ""
 "When enabled, clients will be disconnected after exceeding the amount of "
 "traffic, inclusive of both downloads and uploads, retrieved from the RADIUS "
-"pfSense-Max-Total-Octets attribute."
+"HHFW-Max-Total-Octets attribute."
 msgstr ""
 
 #: src/usr/local/www/services_captiveportal.php:975
@@ -22204,7 +22204,7 @@ msgstr ""
 #: src/usr/local/www/services_captiveportal.php:978
 msgid ""
 "When enabled, the bandwidth assigned to a client will be limited to the "
-"values retrieved from the RADIUS pfSense-Bandwidth-Max-Up and pfSense-"
+"values retrieved from the RADIUS HHFW-Bandwidth-Max-Up and HHFW-"
 "Bandwidth-Max-Down attributes or from the comparable WISPr attributes."
 msgstr ""
 
@@ -22310,10 +22310,10 @@ msgid ""
 "match the Common Name (CN) in the certificate (otherwise, the client browser "
 "will most likely display a security warning). Make sure captive portal "
 "clients can resolve this name in DNS and verify on the client that the IP "
-"resolves to the correct interface IP on pfSense."
+"resolves to the correct interface IP on HHFW."
 msgstr ""
 "此名称将用于HTTPS POST的表单操作中，并应与证书中的公用名（CN）匹配（否则，客户端浏览器很可能显示安全警告）。 "
-"确保入网门户网站客户端可以在DNS中解析此名称，并在客户端上验证IP解析到pfSense上的正确接口IP。"
+"确保入网门户网站客户端可以在DNS中解析此名称，并在客户端上验证IP解析到HHFW上的正确接口IP。"
 
 #: src/usr/local/www/services_captiveportal.php:1111
 msgid "*SSL Certificate"
@@ -22413,7 +22413,7 @@ msgid "S.M.A.R.T. Status"
 msgstr "SMART状态"
 
 #: src/usr/local/www/head.inc:422
-msgid "pfSense Gold"
+msgid "HHFW Gold"
 msgstr "会员服务"
 
 #: src/usr/local/www/head.inc:429
@@ -22433,8 +22433,8 @@ msgid "Paid Support"
 msgstr "商业服务"
 
 #: src/usr/local/www/head.inc:435
-msgid "pfSense Book"
-msgstr "pfSense图书"
+msgid "HHFW Book"
+msgstr "HHFW图书"
 
 #: src/usr/local/www/head.inc:436
 msgid "FreeBSD Handbook"
@@ -24442,8 +24442,8 @@ msgstr "连接到上游SIP服务器"
 
 #: src/usr/local/www/wizards/traffic_shaper_wizard_multi_all.inc:1769
 #: src/usr/local/www/wizards/traffic_shaper_wizard_dedicated.inc:1680
-msgid "Shaper configuration saved via pfSense traffic shaper wizard."
-msgstr "通过pfSense流量整形器向导保存整形器配置。"
+msgid "Shaper configuration saved via HHFW traffic shaper wizard."
+msgstr "通过HHFW流量整形器向导保存整形器配置。"
 
 #: src/usr/local/www/interfaces.php:427
 msgid "The settings have already been applied!"
@@ -27466,9 +27466,9 @@ msgstr "远程系统日志内容"
 msgid ""
 "Syslog sends UDP datagrams to port 514 on the specified remote syslog "
 "server, unless another port is specified. Be sure to set syslogd on the "
-"remote server to accept syslog messages from pfSense."
+"remote server to accept syslog messages from HHFW."
 msgstr ""
-"日志记录器将UDP数据报发送到指定的远程日志服务器上的端口514，除非指定了另一个端口。确保在远程服务器上设置系统记录器以接受来自pfSense的系统日志消息。"
+"日志记录器将UDP数据报发送到指定的远程日志服务器上的端口514，除非指定了另一个端口。确保在远程服务器上设置系统记录器以接受来自HHFW的系统日志消息。"
 
 #: src/usr/local/www/widgets/include/services_status.inc:24
 msgid "Services Status"
@@ -28014,7 +28014,7 @@ msgid "Serial:"
 msgstr "序号:"
 
 #: src/usr/local/www/widgets/widgets/system_information.widget.php:191
-msgid "Netgate Device ID:"
+msgid "Device ID:"
 msgstr "网关设备ID:"
 
 #: src/usr/local/www/widgets/widgets/system_information.widget.php:214
@@ -28495,10 +28495,10 @@ msgstr "Dry-仅运行。%1$s没有复制文件。"
 
 #: src/usr/local/www/system_update_settings.php:247
 msgid ""
-"See \"playback gitsync --help\" in console \"PHP Shell + pfSense tools\" for "
+"See \"playback gitsync --help\" in console \"PHP Shell + HHFW tools\" for "
 "additional information."
 msgstr ""
-"参阅 \"playback gitsync --help\" in console \"PHP Shell + pfSense "
+"参阅 \"playback gitsync --help\" in console \"PHP Shell + HHFW "
 "tools\"以获取更多信息。"
 
 #: src/usr/local/www/status_graph.php:142
@@ -29215,8 +29215,8 @@ msgstr ""
 #, php-format
 msgid ""
 "A communications error occurred while attempting XMLRPC sync with %s "
-"(pfsense.%s)."
-msgstr "尝试与%s (pfsense.%s)进行XMLRPC同步时发生通信错误。"
+"(hhfw.%s)."
+msgstr "尝试与%s (hhfw.%s)进行XMLRPC同步时发生通信错误。"
 
 #: src/etc/inc/xmlrpc_client.inc:126
 msgid "Error code received"
@@ -29310,12 +29310,12 @@ msgid "PC Engines ALIX"
 msgstr "PC Engines ALIX"
 
 #: src/etc/inc/config.inc:74
-msgid "Upgrading m0n0wall configuration to pfSense... "
-msgstr "将m0n0wall配置升级到pfSense ..."
+msgid "Upgrading m0n0wall configuration to HHFW... "
+msgstr "将m0n0wall配置升级到HHFW ..."
 
 #: src/etc/inc/config.inc:77
-msgid "ERROR!  Could not convert m0n0wall -> pfsense in config.xml"
-msgstr "错误！无法转换m0n0wall - > pfsense在config.xml"
+msgid "ERROR!  Could not convert m0n0wall -> HHFW in config.xml"
+msgstr "错误！无法转换m0n0wall - > HHFW在config.xml"
 
 #: src/etc/inc/config.inc:105 src/etc/inc/config.inc:123
 #, php-format
@@ -32361,8 +32361,8 @@ msgid "WebCfg - Crash reporter"
 msgstr "Web配置- 崩溃报告"
 
 #: src/etc/inc/priv.defs.inc:25
-msgid "Uploads crash reports to pfSense and or deletes crash reports."
-msgstr "将崩溃报告上传到pfSense或删除崩溃报告。"
+msgid "Uploads crash reports to HHFW and or deletes crash reports."
+msgstr "将崩溃报告上传到HHFW或删除崩溃报告。"
 
 #: src/etc/inc/priv.defs.inc:30
 msgid "WebCfg - Diagnostics: ARP Table"
@@ -34029,12 +34029,12 @@ msgid "Allow access to the 'OpenVPN: Servers' page."
 msgstr "允许访问 'OpenVPN: 服务' 页面"
 
 #: src/etc/inc/priv.defs.inc:1288
-msgid "WebCfg - pfSense wizard subsystem"
-msgstr "Web配置- pfSense向导子系统"
+msgid "WebCfg - HHFW wizard subsystem"
+msgstr "Web配置- HHFW向导子系统"
 
 #: src/etc/inc/priv.defs.inc:1289
-msgid "Allow access to the 'pfSense wizard subsystem' page."
-msgstr "允许访问 'pfSense向导子系统' 页面"
+msgid "Allow access to the 'HHFW wizard subsystem' page."
+msgstr "允许访问 'HHFW向导子系统' 页面"
 
 #: src/etc/inc/priv.defs.inc:1294
 msgid "WebCfg - XMLRPC Library"
@@ -35376,17 +35376,17 @@ msgstr "动态DNS％%1$s (%2$s):从本地系统提取%3$s 。"
 
 #: src/etc/inc/copynotice.inc:50
 msgid ""
-"<p align=\"center\"><font size=\"3\">Copyright &copy; 2004-2018. Electric "
-"Sheep Fencing LLC (\"ESF\"). All Rights Reserved.</p>\n"
+"<p align=\"center\"><font size=\"3\">Copyright &copy; 2004-2049. HuaHan. "
+"All Rights Reserved.</p>\n"
 "\t\t\t\t\t<p align=\"center\"><strong>NO COMMERCIAL DISTRIBUTION OF THE "
-"PFSENSE&reg; CE SOFTWARE IS ALLOWED.</strong>\n"
+"HHFW&reg; CE SOFTWARE IS ALLOWED.</strong>\n"
 "\t\t\t\t\t</p>\n"
-"\t\t\t\t\t<p>pfSense&reg; is a federally and internationally registered "
-"trademark and service mark of ESF, and is exclusively licensed to Rubicon "
-"Communications, LLC (d/b/a Netgate) (\"Netgate\").</p>\n"
-"\t\t\t\t\t<p>Any unauthorized use of the pfSense&reg; mark is prohibited by "
-"United States and international law. Please refer to the Netgate <a href="
-"\"https://www.pfsense.org/trademarks.html\" target=\"_blank\"> Trademark "
+"\t\t\t\t\t<p>HHFW&reg; is a federally and internationally registered "
+"trademark and service mark of HuaHan, and is exclusively licensed to "
+"HuaHan.</p>\n"
+"\t\t\t\t\t<p>Any unauthorized use of the HHFW&reg; mark is prohibited by "
+"local and international law. Please refer to the HuaHan <a href="
+"\"http://cnhuahan.com\" target=\"_blank\"> Trademark "
 "Usage Guidelines</a> for how to properly use the mark.</p>\n"
 "\t\t\t\t\t</div>\n"
 "\t\t\t\t\t<div class=\"modal-footer\" style=\"background-color:#1e3f75; "
@@ -36073,9 +36073,9 @@ msgstr "禁用此静态路由"
 
 #: src/usr/local/www/system_usermanager_settings.php:242
 msgid ""
-"<span id=\"ldaptestop\">Testing pfSense LDAP settings... One moment please..."
+"<span id=\"ldaptestop\">Testing HHFW LDAP settings... One moment please..."
 ""
-msgstr "<span id=\"ldaptestop\">测试pfSense LDAP设置...请稍等..."
+msgstr "<span id=\"ldaptestop\">测试HHFW LDAP设置...请稍等..."
 
 #: src/usr/local/www/services_ntpd_pps.php:129
 msgid ""
@@ -36134,7 +36134,7 @@ msgid "Use memory file system for /tmp and /var"
 msgstr "对/ tmp和/ var使用内存文件系统"
 
 #: src/usr/local/www/system_advanced_misc.php:613
-msgid "Do NOT send Netgate Device ID with user agent"
+msgid "Do NOT send Device ID with user agent"
 msgstr "不要向用户代理发送网关设备ID"
 
 #: src/usr/local/www/system_hasync.php:121
@@ -36982,12 +36982,12 @@ msgid "Use RADIUS Session-Timeout attributes"
 msgstr "使用RADIUS会话超时属性 "
 
 #: src/usr/local/www/services_captiveportal.php:969
-msgid "Use RADIUS pfSense-Max-Total-Octets attribute"
+msgid "Use RADIUS HHFW-Max-Total-Octets attribute"
 msgstr ""
 
 #: src/usr/local/www/services_captiveportal.php:976
 msgid ""
-"Use RADIUS pfSense-Bandwidth-Max-Up and pfSense-Bandwidth-Max-Down "
+"Use RADIUS HHFW-Bandwidth-Max-Up and HHFW-Bandwidth-Max-Down "
 "attributes"
 msgstr ""
 
@@ -37220,8 +37220,8 @@ msgid "FreeBSD default"
 msgstr "FreeBSD默认"
 
 #: src/usr/local/www/interfaces.php:2199
-msgid "pfSense Default"
-msgstr "pfSense默认"
+msgid "HHFW Default"
+msgstr "HHFW默认"
 
 #: src/usr/local/www/interfaces.php:2207
 msgid "Saved Cfg"
