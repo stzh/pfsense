@@ -250,14 +250,14 @@ if ($_POST) {
 
 					if ($_POST['decrypt']) {
 						if (!tagfile_deformat($data, $data, "config.xml")) {
-							$input_errors[] = gettext("The uploaded file does not appear to contain an encrypted pfsense configuration.");
+							$input_errors[] = gettext("The uploaded file does not appear to contain an encrypted hhfw configuration.");
 							return 1;
 						}
 						$data = decrypt_data($data, $_POST['decrypt_password']);
 					}
 
 					if (stristr($data, "<m0n0wall>")) {
-						log_error(gettext("Upgrading m0n0wall configuration to pfsense."));
+						log_error(gettext("Upgrading m0n0wall configuration to hhfw."));
 						/* m0n0wall was found in config.  convert it. */
 						$data = str_replace("m0n0wall", "pfsense", $data);
 						$m0n0wall_upgrade = true;
