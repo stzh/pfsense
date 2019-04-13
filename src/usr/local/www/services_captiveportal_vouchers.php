@@ -306,7 +306,7 @@ EOF;
 
 				if (!$input_errors) {
 					if (is_array($resp)) {
-						log_error(sprintf(gettext("The Captive Portal voucher database has been synchronized with %s (pfsense.exec_php)."), $url));
+						log_error(sprintf(gettext("The Captive Portal voucher database has been synchronized with %s (hhfw.exec_php)."), $url));
 						// If we received back the voucher roll and other information then store it.
 						if ($resp['voucher']['roll']) {
 							$newvoucher['roll'] = $resp['voucher']['roll'];
