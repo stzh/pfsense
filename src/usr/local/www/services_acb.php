@@ -149,7 +149,7 @@ if ($_REQUEST['rmver'] != "") {
 		fwrite($fd, $data);
 		fwrite($fd, curl_error($curl_session));
 		fclose($fd);
-		$savemsg = "An error occurred while trying to remove the item from portal.pfsense.org.";
+		$savemsg = "An error occurred while trying to remove the item from portal.hhfw.org.";
 	} else {
 		curl_close($curl_session);
 		$budate = new DateTime($_REQUEST['rmver'], $acbtz);
@@ -553,7 +553,7 @@ if (!$legacy) {
 					<tr>
 						<td colspan="3" align="center">
 <?php if ($legacy) { ?>
-							<br /><?=gettext("Current count of hosted backups for this hostname on portal.pfsense.org")?> : <?= $counter ?>
+							<br /><?=gettext("Current count of hosted backups for this hostname on portal.hhfw.org")?> : <?= $counter ?>
 <?php } else { ?>
 							<br /><?=gettext("Current count of hosted backups")?> : <?= $counter ?>
 <?php } ?>
