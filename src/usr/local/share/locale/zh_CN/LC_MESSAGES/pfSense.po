@@ -18,28 +18,28 @@ msgstr ""
 
 #: src/usr/local/captiveportal/index.php:41
 msgid "Internal error"
-msgstr ""
+msgstr "内部错误"
 
 #: src/usr/local/captiveportal/index.php:56
 msgid "An error occurred.  Please check the system logs for more information."
-msgstr ""
+msgstr "发生了一个错误。请检查系统日志获取更多信息。"
 
 #: src/usr/local/captiveportal/index.php:83
 msgid "You are connected."
-msgstr ""
+msgstr "您已连接。"
 
 #: src/usr/local/captiveportal/index.php:148
 msgid "This MAC address has been blocked"
-msgstr ""
+msgstr "该MAC地址已被锁定。"
 
 #: src/usr/local/captiveportal/index.php:160
 #: src/usr/local/captiveportal/index.php:234
 msgid "Invalid credentials specified."
-msgstr ""
+msgstr "使用了非法证书。"
 
 #: src/usr/local/captiveportal/index.php:204
 msgid "System reached maximum login capacity"
-msgstr ""
+msgstr "系统已达到可登录用户数量上限。"
 
 #: src/usr/local/bin/dhcpd_gather_stats.php:102
 #: src/usr/local/www/status_dhcp_leases.php:189
@@ -770,11 +770,11 @@ msgstr "DNS  解析"
 
 #: src/usr/local/www/status_unbound.php:42
 msgid "The DNS Resolver is disabled or stopped."
-msgstr ""
+msgstr "DNS解析被禁用或停止。"
 
 #: src/usr/local/www/status_unbound.php:50
 msgid "DNS Resolver Infrastructure Cache Speed"
-msgstr ""
+msgstr "DNS解析架构缓存速度"
 
 #: src/usr/local/www/status_unbound.php:56
 #: src/usr/local/www/status_unbound.php:142
@@ -807,7 +807,7 @@ msgstr "Ping "
 
 #: src/usr/local/www/status_unbound.php:60
 msgid "Var"
-msgstr ""
+msgstr "Var"
 
 #: src/usr/local/www/status_unbound.php:61
 #: src/usr/local/www/status_gateways.php:57
@@ -816,56 +816,56 @@ msgstr "往返时延"
 
 #: src/usr/local/www/status_unbound.php:62
 msgid "RTO"
-msgstr ""
+msgstr "重传超时时间"
 
 #: src/usr/local/www/status_unbound.php:63
 msgid "Timeout A"
-msgstr ""
+msgstr "超时时间A"
 
 #: src/usr/local/www/status_unbound.php:64
 msgid "Timeout AAAA"
-msgstr ""
+msgstr "超时时间AAAA"
 
 #: src/usr/local/www/status_unbound.php:65
 msgid "Timeout Other"
-msgstr ""
+msgstr "超时时间其它"
 
 #: src/usr/local/www/status_unbound.php:72
 #: src/usr/local/www/status_unbound.php:157
 msgid "No Data"
-msgstr ""
+msgstr "无数据"
 
 #: src/usr/local/www/status_unbound.php:136
 msgid "DNS Resolver Infrastructure Cache Stats"
-msgstr ""
+msgstr "DNS解析架构缓存状态"
 
 #: src/usr/local/www/status_unbound.php:144
 msgid "eDNS Lame Known"
-msgstr ""
+msgstr "eDNS Lame已知"
 
 #: src/usr/local/www/status_unbound.php:145
 msgid "eDNS Version"
-msgstr ""
+msgstr "eDNS版本"
 
 #: src/usr/local/www/status_unbound.php:146
 msgid "Probe Delay"
-msgstr ""
+msgstr "探测延时"
 
 #: src/usr/local/www/status_unbound.php:147
 msgid "Lame DNSSEC"
-msgstr ""
+msgstr "Lame DNSSEC"
 
 #: src/usr/local/www/status_unbound.php:148
 msgid "Lame Rec"
-msgstr ""
+msgstr "Lame Rec"
 
 #: src/usr/local/www/status_unbound.php:149
 msgid "Lame A"
-msgstr ""
+msgstr "Lame A"
 
 #: src/usr/local/www/status_unbound.php:150
 msgid "Lame Other"
-msgstr ""
+msgstr "Lame其它"
 
 #: src/usr/local/www/status_ipsec.php:127
 #: src/usr/local/www/status_ipsec.php:160
@@ -925,23 +925,23 @@ msgstr "显示子SA条目"
 #: src/usr/local/www/status_ipsec.php:277
 #: src/usr/local/www/status_ipsec.php:506
 msgid "IPsec ID"
-msgstr ""
+msgstr "IPsec ID"
 
 #: src/usr/local/www/status_ipsec.php:278
 msgid "Local subnets"
-msgstr ""
+msgstr "本地子网"
 
 #: src/usr/local/www/status_ipsec.php:279
 msgid "Local SPI(s)"
-msgstr ""
+msgstr "本地SPI(s)"
 
 #: src/usr/local/www/status_ipsec.php:280
 msgid "Remote subnets"
-msgstr ""
+msgstr "远程子网"
 
 #: src/usr/local/www/status_ipsec.php:281
 msgid "Times"
-msgstr ""
+msgstr "时间"
 
 #: src/usr/local/www/status_ipsec.php:282
 #: src/usr/local/www/status_ipsec.php:514
@@ -950,7 +950,7 @@ msgstr "Algo"
 
 #: src/usr/local/www/status_ipsec.php:283
 msgid "Stats"
-msgstr ""
+msgstr "状态"
 
 #: src/usr/local/www/status_ipsec.php:309
 msgid "Local: "
@@ -1500,7 +1500,7 @@ msgstr "限制器："
 
 #: src/usr/local/www/diag_limiter_info.php:43
 msgid "Schedulers"
-msgstr ""
+msgstr "调度器"
 
 #: src/usr/local/www/diag_limiter_info.php:48
 #: src/usr/local/www/status_queues.php:50 src/usr/local/www/head.inc:363
@@ -3252,11 +3252,11 @@ msgstr "预共享密钥包含无效字符。"
 
 #: src/usr/local/www/vpn_ipsec_keys_edit.php:85
 msgid "A valid IP address for 'Virtual Address Pool' must be specified."
-msgstr ""
+msgstr "必须为‘虚拟地址池’指定一个有效IP地址。"
 
 #: src/usr/local/www/vpn_ipsec_keys_edit.php:89
 msgid "A valid IP address for 'DNS Server' must be specified."
-msgstr ""
+msgstr "必须为‘DNS服务器’指定一个有效IP地址。"
 
 #: src/usr/local/www/vpn_ipsec_keys_edit.php:96
 msgid "Another entry with the same identifier already exists."
@@ -3307,11 +3307,11 @@ msgstr "*预共享密钥"
 
 #: src/usr/local/www/vpn_ipsec_keys_edit.php:181
 msgid "Identifier type"
-msgstr ""
+msgstr "标识符类型"
 
 #: src/usr/local/www/vpn_ipsec_keys_edit.php:184
 msgid "Optional: specify identifier type for strongswan"
-msgstr ""
+msgstr "可选：为strongswan指定标识符类型"
 
 #: src/usr/local/www/vpn_ipsec_keys_edit.php:188
 #: src/usr/local/www/vpn_ipsec_mobile.php:467
@@ -3322,7 +3322,7 @@ msgstr "虚拟地址池 "
 msgid ""
 "Optional. If used, must be IPv4 address. If left blank, \"Virtual Address "
 "Pool\" of \"Mobile Clients\" will be used."
-msgstr ""
+msgstr "可选。若使用，必须为IPv4地址。若为空，将使用‘移动客户端’的‘虚拟地址池’。"
 
 #: src/usr/local/www/vpn_ipsec_keys_edit.php:194
 #: src/usr/local/www/system.php:504
@@ -3333,7 +3333,7 @@ msgstr "DNS服务器 "
 msgid ""
 "Optional. If used, must be IPv4 address. Individual DNS server only for this "
 "user. If left blank, \"DNS Servers\" of \"Mobile Clients\" will be used."
-msgstr ""
+msgstr "可选。若使用，必须为IPv4地址。只用于该用户的单独的DNS服务器。若为空，将使用‘移动客户端’的‘DNS服务器’。"
 
 #: src/usr/local/www/vpn_ipsec_keys_edit.php:213
 #: src/usr/local/www/vpn_ipsec_keys.php:173
@@ -3878,7 +3878,7 @@ msgstr "系统初始化，请稍候！"
 
 #: src/usr/local/www/pkg_mgr_install.php:559
 msgid "Creating restore point before upgrade."
-msgstr ""
+msgstr "在升级前创建系统还原点。"
 
 #: src/usr/local/www/pkg_mgr_install.php:561
 msgid "Creating restore point before package installation."
@@ -5154,7 +5154,7 @@ msgstr "日志文件大小必须为数字且大于或等于100000。"
 #: src/usr/local/www/status_logs_common.inc:653
 #: src/usr/local/www/status_logs_settings.php:107
 msgid "Log file size is too large. Set a smaller value."
-msgstr ""
+msgstr "日志文件大小太大。设置一个较小的数值。"
 
 #: src/usr/local/www/status_logs_common.inc:724
 msgid "Log Display Settings Saved: "
@@ -5524,7 +5524,7 @@ msgstr "删除所选的IPsec阶段1条目。"
 msgid ""
 "Cannot delete a VTI Phase 2 while the interface is assigned. Remove the "
 "interface assignment before deleting this P2."
-msgstr ""
+msgstr "指定接口后无法删除VTI阶段2。删除该P2前先取消指定的接口。"
 
 #: src/usr/local/www/vpn_ipsec.php:76
 msgid "Deleted selected IPsec Phase 2 entries."
@@ -5535,20 +5535,20 @@ msgstr "已删除所选的IPsec 阶段2条目。"
 msgid ""
 "Cannot disable a Phase 1 with a child Phase 2 while the interface is "
 "assigned. Remove the interface assignment before disabling this P2."
-msgstr ""
+msgstr "指定接口后无法禁用带子阶段2的阶段1。禁用该P2前先取消指定的接口。"
 
 #: src/usr/local/www/vpn_ipsec.php:190
 #: src/usr/local/www/vpn_ipsec_phase2.php:372
 msgid ""
 "Cannot disable a VTI Phase 2 while the interface is assigned. Remove the "
 "interface assignment before disabling this P2."
-msgstr ""
+msgstr "指定接口后无法禁用VTI阶段2。禁用该P2前先取消指定的接口。"
 
 #: src/usr/local/www/vpn_ipsec.php:216
 msgid ""
 "Cannot delete a Phase 1 which contains an active VTI Phase 2 with an "
 "interface assigned. Remove the interface assignment before deleting this P1."
-msgstr ""
+msgstr "指定接口后无法删除包含活动VTI阶段2的阶段1。删除该P1前先取消指定的接口。"
 
 #: src/usr/local/www/vpn_ipsec.php:235
 msgid "Saved configuration changes for IPsec tunnels."
@@ -6105,14 +6105,14 @@ msgstr ""
 
 #: src/usr/local/www/services_unbound_domainoverride_edit.php:134
 msgid "TLS Queries"
-msgstr ""
+msgstr "TLS查询"
 
 #: src/usr/local/www/services_unbound_domainoverride_edit.php:137
 #, php-format
 msgid ""
 "When set, queries to %1$sall DNS servers for this domain%2$s will be sent "
 "using SSL/TLS on the default port of 853."
-msgstr ""
+msgstr "设置后，%1$s该域所有DNS服务器%2$s的查询都将使用SSL/TLS在默认端口号853上发送。"
 
 #: src/usr/local/www/services_unbound_domainoverride_edit.php:158
 msgid ""
@@ -6222,31 +6222,31 @@ msgstr "pfSync节点"
 #: src/usr/local/www/system_usermanager.php:41
 #: src/usr/local/www/system_usermanager_addprivs.php:35
 msgid "Local User Database"
-msgstr ""
+msgstr "本地用户数据库"
 
 #: src/usr/local/www/system_groupmanager.php:81
 #, php-format
 msgid "Successfully deleted group: %s"
-msgstr ""
+msgstr "成功删除组：%s"
 
 #: src/usr/local/www/system_groupmanager.php:107
 #, php-format
 msgid "Removed Privilege \"%s\" from group %s"
-msgstr ""
+msgstr "删除权限 \"%s\" 从组 %s"
 
 #: src/usr/local/www/system_groupmanager.php:142
 #: src/usr/local/www/system_usermanager.php:147
 #, php-format
 msgid "Successfully deleted %s: %s"
-msgstr ""
+msgstr "成功删除%s: %s"
 
 #: src/usr/local/www/system_groupmanager.php:144
 msgid "group"
-msgstr ""
+msgstr "组"
 
 #: src/usr/local/www/system_groupmanager.php:144
 msgid "groups"
-msgstr ""
+msgstr "组"
 
 #: src/usr/local/www/system_groupmanager.php:162
 #: src/usr/local/www/interfaces_groups_edit.php:59
@@ -6278,17 +6278,17 @@ msgstr "具有相同组名的另一个条目已存在。"
 #: src/usr/local/www/system_groupmanager.php:253
 #, php-format
 msgid "Successfully %s group %s"
-msgstr ""
+msgstr "成功%s 组 %s"
 
 #: src/usr/local/www/system_groupmanager.php:254
 #: src/usr/local/www/system_usermanager.php:464
 msgid "edited"
-msgstr ""
+msgstr "编辑"
 
 #: src/usr/local/www/system_groupmanager.php:254
 #: src/usr/local/www/system_usermanager.php:464
 msgid "created"
-msgstr ""
+msgstr "创建"
 
 #: src/usr/local/www/system_groupmanager.php:287
 #: src/usr/local/www/system_usermanager.php:504
@@ -6386,7 +6386,7 @@ msgid ""
 "<span class=\"text-danger\">Warning: Changing this setting may affect the "
 "local groups file, in which case a reboot may be required for the changes to "
 "take effect.</span>"
-msgstr ""
+msgstr "<span class=\"text-danger\">警告：更改此设置可能影响本地组文件并导致系统重启。</span>"
 
 #: src/usr/local/www/system_groupmanager.php:465
 msgid "Group description, for administrative information only"
@@ -6936,6 +6936,9 @@ msgid ""
 "not the data channel.%1$sSet this to the same value as the server. While "
 "SHA1 is the default for OpenVPN, this algorithm is insecure. "
 msgstr ""
+"用于认证数据通道数据包和使用TLS秘钥时控制通道数据包的算法。%1$s "
+"当使用AEAD加密算法模式时，比如AES-GCM， 该算法只用于控制通道，而不用于数据通道。%1$s"
+"将其设为与服务器相同的数值。当SHA1被设为OpenVPN的默认值时，该算法不安全。"
 
 #: src/usr/local/www/vpn_openvpn_client.php:787
 #: src/usr/local/www/vpn_openvpn_server.php:954
@@ -7049,6 +7052,9 @@ msgid ""
 "dynamically disable compression for a period of time if OpenVPN detects that "
 "the data in the packets is not being compressed efficiently."
 msgstr ""
+"使用LZO算法压缩隧道包。 %1$s压缩可以潜在增加吞吐量，但可能允许攻击者得到私密信息，如果他们能控制通过VPN的压缩明文（例如HTTP）。 "
+"启用压缩之前，咨询针对TLS的VORACLE，CRIME，TIME和BREACH 攻击的信息，以决定该特定VPN的用例是否易于攻击。 %1$s%1$s"
+"如果OpenVPN检测到包内数据未被有效地压缩，自适应压缩将在一段时间内动态禁用压缩。"
 
 #: src/usr/local/www/vpn_openvpn_client.php:858
 #: src/usr/local/www/vpn_openvpn_server.php:1152
@@ -7193,7 +7199,7 @@ msgstr "删除WIFI接口"
 
 #: src/usr/local/www/services_dhcp.php:219
 msgid "The DHCP option must be a number between 1 and 254."
-msgstr ""
+msgstr "DHCP选项必须是1~254之间的数字。"
 
 #: src/usr/local/www/services_dhcp.php:244
 msgid ""
@@ -7339,13 +7345,13 @@ msgstr "IP地址或主机类型必须是一个IP地址或主机名。"
 msgid ""
 "DHCP Registration features in the DNS Forwarder are active and require at "
 "least one enabled DHCP Server."
-msgstr ""
+msgstr "DNS转发器里的DHCP注册功能已启用，并需要至少一个启用的DHCP服务器。"
 
 #: src/usr/local/www/services_dhcp.php:439
 msgid ""
 "DHCP Registration features in the DNS Resolver are active and require at "
 "least one enabled DHCP Server."
-msgstr ""
+msgstr "DNS解析器里的DHCP注册功能已启用，并需要至少一个启用的DHCP服务器。"
 
 #: src/usr/local/www/services_dhcp.php:463
 msgid ""
@@ -7784,7 +7790,7 @@ msgstr "使用此端口启用DNS转发器。 选择不冲突的端口，或禁�
 
 #: src/usr/local/www/services_unbound.php:122
 msgid "Acting as an SSL/TLS server requires a valid server certificate"
-msgstr ""
+msgstr "SSL/TLS服务器需要一个有效的服务器证书。"
 
 #: src/usr/local/www/services_unbound.php:146
 msgid ""
@@ -7813,7 +7819,7 @@ msgstr "必须指定一个有效的端口号"
 
 #: src/usr/local/www/services_unbound.php:164
 msgid "A valid SSL/TLS port number must be specified."
-msgstr ""
+msgstr "必须指定一个有效的SSL/TLS端口号。"
 
 #: src/usr/local/www/services_unbound.php:173
 msgid ""
@@ -7863,7 +7869,7 @@ msgstr "用于响应DNS查询的端口。它通常应该留空，除非另一个
 
 #: src/usr/local/www/services_unbound.php:314
 msgid "Enable SSL/TLS Service"
-msgstr ""
+msgstr "开启SSL/TLS服务"
 
 #: src/usr/local/www/services_unbound.php:317
 msgid ""
@@ -7872,27 +7878,29 @@ msgid ""
 "option disables automatic interface response routing behavior, thus it works "
 "best with specific interface bindings."
 msgstr ""
+"配置DNS解析器作为一个基于SSL/TLS的DNS服务器，使其能够响应同样支持基于TLS的DNS的客户端的查询。"
+"启用该选项会禁用自动接口响应路由行为，因此它最好与指定的接口绑定一起工作。"
 
 #: src/usr/local/www/services_unbound.php:328
 #: src/usr/local/www/services_unbound.php:334
 msgid "SSL/TLS Certificate"
-msgstr ""
+msgstr "SSL/TLS证书"
 
 #: src/usr/local/www/services_unbound.php:331
 msgid ""
 "The server certificate to use for SSL/TLS service. The CA chain will be "
 "determined automatically."
-msgstr ""
+msgstr "用于SSL/TLS服务的服务器证书。CA链将自动确定。"
 
 #: src/usr/local/www/services_unbound.php:342
 msgid "SSL/TLS Listen Port"
-msgstr ""
+msgstr "SSL/TLS监听端口"
 
 #: src/usr/local/www/services_unbound.php:346
 msgid ""
 "The port used for responding to SSL/TLS DNS queries. It should normally be "
 "left blank unless another service needs to bind to TCP/UDP port 853."
-msgstr ""
+msgstr "用于响应基于SSL/TLS的DNS查询的端口。通常它应该为空，除非其它服务需要绑定TCP/UDP端口853。"
 
 #: src/usr/local/www/services_unbound.php:352
 msgid "*Network Interfaces"
@@ -7958,6 +7966,8 @@ msgid ""
 " Note that ALL configured forwarding servers MUST support SSL/TLS queries on "
 "port 853."
 msgstr ""
+"当设置了与DNS查询转发结合时，所有对上行转发DNS服务器的查询都将使用SSL/TLS在默认端口853上发送。"
+" 注意所有配置的转发服务器必须支持端口853上的SSL/TLS查询。"
 
 #: src/usr/local/www/services_unbound.php:404
 #, php-format
@@ -7967,6 +7977,8 @@ msgid ""
 "their name can be resolved. The domain in %1$sSystem &gt; General Setup%2$s "
 "should also be set to the proper value."
 msgstr ""
+"若设置此选项，那么指定了请求IPv4 DHCP租期时的主机名的机器将被注册到DNS解析器中，以便解析其主机名。"
+"在 %1$s系统 &gt; 通用设置%2$s里的域也应设置合适的数值。"
 
 #: src/usr/local/www/services_unbound.php:410
 #: src/usr/local/www/services_dnsmasq.php:268
@@ -8064,33 +8076,33 @@ msgstr ""
 #: src/usr/local/www/services_acb.php:395
 #: src/usr/local/www/services_acb_backup.php:74
 msgid "Backup Details"
-msgstr ""
+msgstr "备份细节"
 
 #: src/usr/local/www/services_acb.php:408
 msgid "Revision date/time"
-msgstr ""
+msgstr "修订日期/时间"
 
 #: src/usr/local/www/services_acb.php:415
 #: src/usr/local/www/services_acb_backup.php:78
 msgid "Revision Reason"
-msgstr ""
+msgstr "修订原因"
 
 #: src/usr/local/www/services_acb.php:422
 msgid "SHA256 summary"
-msgstr ""
+msgstr "SHA256总结"
 
 #: src/usr/local/www/services_acb.php:429
 msgid "Encrypted config.xml"
-msgstr ""
+msgstr "加密的config.xml"
 
 #: src/usr/local/www/services_acb.php:435
 msgid "Decrypted config.xml"
-msgstr ""
+msgstr "解密的config.xml"
 
 #: src/usr/local/www/services_acb.php:444
 #: src/usr/local/www/services_acb.php:534
 msgid "Restore this revision"
-msgstr ""
+msgstr "恢复该修订"
 
 #: src/usr/local/www/services_acb.php:449
 #: src/usr/local/www/services_acb.php:450
@@ -8098,7 +8110,7 @@ msgstr ""
 #: src/usr/local/www/services_acb_backup.php:85
 #: src/usr/local/www/services_acb_backup.php:89
 msgid "Device key"
-msgstr ""
+msgstr "设备秘钥"
 
 #: src/usr/local/www/services_acb.php:457
 #, php-format
@@ -8107,10 +8119,13 @@ msgid ""
 "help below for more details. %sPlease make a safe copy of this ID value.%s "
 "If it is lost, your backups will be lost too!"
 msgstr ""
+"用于识别此防火墙的ID（来源于SSH公钥）。更多细节请参考如下帮助信息。"
+"%s请安全备份此ID数值。%s "
+"若其丢失，则您的备份也将会丢失！"
 
 #: src/usr/local/www/services_acb.php:463
 msgid "Submit"
-msgstr ""
+msgstr "提交"
 
 #: src/usr/local/www/services_acb.php:479
 msgid ""
@@ -8120,19 +8135,22 @@ msgid ""
 "key from that firewall into the Device ID field above and click \"Submit\". "
 "This will temporarily override the ID for this session."
 msgstr ""
+"上述设备秘钥来源于防火墙的SSH公钥。保存配置时，可用此数值来区别。"
+"若您正恢复另一个防火墙的配置，将其设备秘钥拷贝至上述设备ID区域并点击\"提交\"。"
+"这将暂时改变该会话的ID。"
 
 #: src/usr/local/www/services_acb.php:487
 msgid "Automatic Configuration Backups"
-msgstr ""
+msgstr "自动配置备份"
 
 #: src/usr/local/www/services_acb.php:508
 msgid "Exit the legacy backup system"
-msgstr ""
+msgstr "退出遗留备份系统"
 
 #: src/usr/local/www/services_acb.php:511
 msgid ""
 "Switch to the legacy backup system provided as part of the Gold program"
-msgstr ""
+msgstr "切换到作为Gold程序一部分提供的遗留备份系统"
 
 #: src/usr/local/www/services_acb.php:519
 #: src/usr/local/www/diag_confbak.php:218
@@ -8146,7 +8164,7 @@ msgstr "配置变化"
 
 #: src/usr/local/www/services_acb.php:535
 msgid "Show info"
-msgstr ""
+msgstr "显示信息"
 
 #: src/usr/local/www/services_acb.php:539
 #: src/usr/local/www/diag_confbak.php:269
@@ -8155,16 +8173,16 @@ msgstr "删除配置"
 
 #: src/usr/local/www/services_acb.php:548
 msgid "No backups could be located for this device."
-msgstr ""
+msgstr "未找到该设备的备份。"
 
 #: src/usr/local/www/services_acb.php:556
 msgid ""
 "Current count of hosted backups for this hostname on portal.hhfw.org"
-msgstr ""
+msgstr "portal.hhfw.org为该主机名保留的备份的当前数目"
 
 #: src/usr/local/www/services_acb.php:558
 msgid "Current count of hosted backups"
-msgstr ""
+msgstr "保留的备份的当前数目"
 
 #: src/usr/local/www/services_acb.php:580
 msgid ""
@@ -8181,12 +8199,23 @@ msgid ""
 "of the firewall</p>\n"
 "\t\t\t</div>"
 msgstr ""
+"<p align=\"center\"><strong>HHFW&copy; &quot;Gold&quot; "
+"配置备份系统访问。</strong>\n"
+"\t\t\t</p>\n"
+"\t\t\t<p>&quot;Gold&quot; 备份系统可用于获取旧的备份。"
+"</p>\n"
+"\t\t\t<p>注意，由于这些备份根据主机名和用户名存储，"
+"配置的用户名、主机名和密码将被（通过HTTPS）传送到服务器。"
+"点击&quot;OK&quot;\n"
+"\t\t\t您同意授权此操作。备份数据被加密（AES-256），并且加密秘钥不会被发送至防火墙以外。"
+"</p>\n"
+"\t\t\t</div>"
 
 #: src/usr/local/www/services_acb.php:610
 msgid ""
 "Please configure your \"Gold\" membership settings on the Settings page "
 "before accessing the legacy backup features"
-msgstr ""
+msgstr "访问遗留备份功能之前，请在设置页面设置您的\"Gold\"成员设置。"
 
 #: src/usr/local/www/diag_reboot.php:43 src/usr/local/www/diag_reboot.php:113
 #: src/usr/local/www/diag_reboot.php:115 src/usr/local/www/head.inc:409
@@ -8268,14 +8297,14 @@ msgstr "平均: %s"
 
 #: src/usr/local/www/services_acb_backup.php:81
 msgid "Enter the reason for the backup"
-msgstr ""
+msgstr "输入备份原因"
 
 #: src/usr/local/www/services_acb_backup.php:92
 msgid ""
 "ID used to identify this firewall (derived from the SSH public key.) Keep a "
 "record of this key in case you should ever need to recover this backup on "
 "another firewall."
-msgstr ""
+msgstr "用于识别此防火墙的ID（来源于SSH公钥）。保留此秘钥的备份，以便在其它防火墙恢复此备份。"
 
 #: src/usr/local/www/services_dnsmasq.php:141
 msgid ""
@@ -8327,6 +8356,9 @@ msgid ""
 "DNS forwarder so that their name can be resolved. The domain in %1$sSystem: "
 "General Setup%2$s should also be set to the proper value."
 msgstr ""
+"若设置此选项，IPv4 DHCP静态映射将被注册到DNS转发器，以便解析其名字。"
+"在 %1$s系统: "
+"通用设置%2$s 里的域也应设置合适的数值。"
 
 #: src/usr/local/www/services_dnsmasq.php:279
 msgid "Prefer DHCP"
@@ -8749,31 +8781,31 @@ msgstr "*通用名称 "
 msgid ""
 "The following certificate subject components are optional and may be left "
 "blank."
-msgstr ""
+msgstr "如下证书组件为可选项，可留空。"
 
 #: src/usr/local/www/system_certmanager.php:812
 #: src/usr/local/www/system_certmanager.php:883
 #: src/usr/local/www/system_camanager.php:581
 msgid "Country Code"
-msgstr ""
+msgstr "国家码"
 
 #: src/usr/local/www/system_certmanager.php:819
 #: src/usr/local/www/system_certmanager.php:890
 #: src/usr/local/www/system_camanager.php:588
 msgid "State or Province"
-msgstr ""
+msgstr "州或省"
 
 #: src/usr/local/www/system_certmanager.php:827
 #: src/usr/local/www/system_certmanager.php:898
 #: src/usr/local/www/system_camanager.php:596
 msgid "City"
-msgstr ""
+msgstr "市"
 
 #: src/usr/local/www/system_certmanager.php:835
 #: src/usr/local/www/system_certmanager.php:906
 #: src/usr/local/www/system_camanager.php:604
 msgid "Organization"
-msgstr ""
+msgstr "组织"
 
 #: src/usr/local/www/system_certmanager.php:843
 #: src/usr/local/www/system_certmanager.php:914
@@ -8933,11 +8965,11 @@ msgstr "EKU: "
 
 #: src/usr/local/www/system_certmanager.php:1209
 msgid "OCSP: "
-msgstr ""
+msgstr "OCSP"
 
 #: src/usr/local/www/system_certmanager.php:1210
 msgid "Must Staple"
-msgstr ""
+msgstr "必须装订"
 
 #: src/usr/local/www/system_certmanager.php:1222
 #: src/usr/local/www/system_camanager.php:408
@@ -9981,12 +10013,12 @@ msgstr "用户密码 "
 
 #: src/usr/local/www/system_usermanager_passwordmg.php:51
 msgid "Could not locate this user."
-msgstr ""
+msgstr "未找到此用户。"
 
 #: src/usr/local/www/system_usermanager_passwordmg.php:60
 #, php-format
 msgid "Password changed for user: %s"
-msgstr ""
+msgstr "用户%s的密码已更改"
 
 #: src/usr/local/www/system_usermanager_passwordmg.php:92
 msgid "The password cannot be changed for a non-local user."
@@ -10121,15 +10153,15 @@ msgstr "代理密码两次输入必须一致。"
 
 #: src/usr/local/www/system_advanced_misc.php:135
 msgid "Invalid AC Power mode."
-msgstr ""
+msgstr "无效AC电源模式。"
 
 #: src/usr/local/www/system_advanced_misc.php:138
 msgid "Invalid Battery Power mode."
-msgstr ""
+msgstr "无效电池电源模式。"
 
 #: src/usr/local/www/system_advanced_misc.php:141
 msgid "Invalid Unknown Power mode."
-msgstr ""
+msgstr "无效未知电源模式。"
 
 #: src/usr/local/www/system_advanced_misc.php:344
 msgid "Proxy Support"
@@ -10287,12 +10319,12 @@ msgstr ""
 
 #: src/usr/local/www/system_advanced_misc.php:481
 msgid "Kernel Page Table Isolation"
-msgstr ""
+msgstr "内核页表隔离"
 
 #: src/usr/local/www/system_advanced_misc.php:484
 #: src/usr/local/www/widgets/widgets/system_information.widget.php:285
 msgid "Kernel PTI"
-msgstr ""
+msgstr "内核PTI"
 
 #: src/usr/local/www/system_advanced_misc.php:487
 #, php-format
@@ -10303,6 +10335,11 @@ msgid ""
 "affected CPUs, if PTI is disabled by default then this option will have no "
 "effect. %1$sCurrent PTI status: %2$s"
 msgstr ""
+"容灾权变措施。若禁用，受影响的CPU上的内核内存可被未授权用户访问。"
+"此选项强制关闭权变措施，并需要重启才能起作用。"
+" %1$s%1$sPTI只在受影响的CPU上是默认开启的。"
+"若PTI默认被禁用，那么此选项将不起作用。"
+"%1$s当前PTI状态： %2$s"
 
 #: src/usr/local/www/system_advanced_misc.php:493
 #: src/usr/local/www/firewall_schedule_edit.php:52
@@ -11609,56 +11646,56 @@ msgstr "将闰秒配置作为文本输入或选择要上传的文件。"
 
 #: src/usr/local/www/services_acb_settings.php:71
 msgid "Encryption password"
-msgstr ""
+msgstr "加密密码"
 
 #: src/usr/local/www/services_acb_settings.php:76
 msgid "The encryption password must contain at least 8 characters"
-msgstr ""
+msgstr "加密密码必须包含至少8个字符"
 
 #: src/usr/local/www/services_acb_settings.php:86
 msgid "Encryption password and confirmation do not match"
-msgstr ""
+msgstr "加密密码和确认密码不匹配"
 
 #: src/usr/local/www/services_acb_settings.php:94
 msgid "Schedule values may only contain 0-9 - , / *"
-msgstr ""
+msgstr "调度数值不可包含 0-9 - , / *"
 
 #: src/usr/local/www/services_acb_settings.php:108
 msgid "Legacy Gold password and confirmation do not match"
-msgstr ""
+msgstr "遗留Gold密码和确认密码不匹配"
 
 #: src/usr/local/www/services_acb_settings.php:116
 msgid "Legacy Gold encryption password and confirmation do not match"
-msgstr ""
+msgstr "遗留Gold加密密码和确认密码不匹配"
 
 #: src/usr/local/www/services_acb_settings.php:123
 msgid "Legacy Gold username may not be blank"
-msgstr ""
+msgstr "遗留Gold用户不可为空"
 
 #: src/usr/local/www/services_acb_settings.php:127
 msgid "Legacy Gold password may not be blank"
-msgstr ""
+msgstr "遗留Gold密码不可为空"
 
 #: src/usr/local/www/services_acb_settings.php:131
 msgid "Legacy Gold encryption password may not be blank"
-msgstr ""
+msgstr "遗留Gold加密密码不可为空"
 
 #: src/usr/local/www/services_acb_settings.php:185
 msgid "Auto Configuration Backup"
-msgstr ""
+msgstr "自动配置备份"
 
 #: src/usr/local/www/services_acb_settings.php:199
 #: src/usr/local/www/head.inc:310
 msgid "Auto Config Backup"
-msgstr ""
+msgstr "自动配置备份"
 
 #: src/usr/local/www/services_acb_settings.php:210
 msgid "Enable ACB"
-msgstr ""
+msgstr "开启ACB"
 
 #: src/usr/local/www/services_acb_settings.php:215
 msgid "Backup Frequency"
-msgstr ""
+msgstr "备份频率"
 
 #: src/usr/local/www/services_acb_settings.php:245
 #: src/usr/local/www/firewall_rules_edit.php:1625
@@ -11673,15 +11710,15 @@ msgstr "小时"
 
 #: src/usr/local/www/services_acb_settings.php:252
 msgid "Hours (0-23)"
-msgstr ""
+msgstr "小时（0-23）"
 
 #: src/usr/local/www/services_acb_settings.php:256
 msgid "Day of month"
-msgstr ""
+msgstr "日期"
 
 #: src/usr/local/www/services_acb_settings.php:259
 msgid "Day (1-31)"
-msgstr ""
+msgstr "日（1-31）"
 
 #: src/usr/local/www/services_acb_settings.php:263
 #: src/usr/local/www/firewall_schedule_edit.php:375
@@ -11690,35 +11727,35 @@ msgstr "月"
 
 #: src/usr/local/www/services_acb_settings.php:266
 msgid "Month (1-12)"
-msgstr ""
+msgstr "月（1-12）"
 
 #: src/usr/local/www/services_acb_settings.php:270
 msgid "Day of week"
-msgstr ""
+msgstr "星期"
 
 #: src/usr/local/www/services_acb_settings.php:273
 msgid "Day of week (0-6)"
-msgstr ""
+msgstr "星期（0-6）"
 
 #: src/usr/local/www/services_acb_settings.php:282
 msgid "*Encryption Password"
-msgstr ""
+msgstr "加密密码"
 
 #: src/usr/local/www/services_acb_settings.php:292
 msgid ""
 "You may optionally provide an identifier which will be stored in plain text "
 "along with each encrypted backup. This may allow the support team to "
 "locate your key should you lose it."
-msgstr ""
+msgstr "你可选择提供一个标识符，其将以明文方式与每个加密备份一起保存。这将允许支持团队在您丢失秘钥时帮您查找秘钥。"
 
 #: src/usr/local/www/services_acb_settings.php:297
 #: src/usr/local/www/services_acb_settings.php:324
 msgid "Legacy \"Gold\" settings"
-msgstr ""
+msgstr "遗留\"Gold\" 设置"
 
 #: src/usr/local/www/services_acb_settings.php:315
 msgid "*Encryption password"
-msgstr ""
+msgstr "加密密码"
 
 #: src/usr/local/www/services_captiveportal_vouchers.php:63
 #, php-format
@@ -12635,7 +12672,7 @@ msgstr "*密钥长度（位）"
 msgid ""
 "The following certificate authority subject components are optional and may "
 "be left blank."
-msgstr ""
+msgstr "如下证书认证组件为可选项，并可留空。"
 
 #: src/usr/local/www/pkg_mgr.php:83
 msgid "Visit official website"
@@ -13164,7 +13201,7 @@ msgstr "通配符"
 
 #: src/usr/local/www/services_dyndns_edit.php:324
 msgid "Cloudflare Proxy"
-msgstr ""
+msgstr "Cloudflare代理"
 
 #: src/usr/local/www/services_dyndns_edit.php:327
 #, php-format
@@ -13173,6 +13210,9 @@ msgid ""
 "all traffic through their servers. By Default this is disabled and your Real "
 "IP is exposed.More info: %s"
 msgstr ""
+"注意：这将启用Cloudflare虚拟DNS代理。启用后，它将路由所有通过服务器的数据。"
+"默认为禁用，您的真实IP将被暴露。"
+"更多信息： %s"
 
 #: src/usr/local/www/services_dyndns_edit.php:333
 msgid "Verbose logging"
@@ -13203,6 +13243,12 @@ msgid ""
 "%1$sGodaddy:: Enter the API key.%1$sFor Custom Entries, Username and "
 "Password represent HTTP Authentication username and passwords."
 msgstr ""
+"所有类型都需要用户名，除了Namecheap, FreeDNS , FreeDNS-v6, "
+"DigitalOcean和Custom Entries。%1$sAzure: 输入您的Azure AD 应用"
+"ID%1$sDNS Made Easy: 动态DNS ID%1$sDNSimple: 用户账户ID (在URL之后"
+" '/a/')%1$s路由53: 输入访问秘钥ID.%1$sGleSYS: 输入"
+"API 用户。%1$sDreamhost：输入一个用于DNS记录评论的数值。"
+"%1$sGodaddy:: 输入API秘钥.%1$s对于用户条目，用户名和密码是指HTTP认证用户名和密码。"
 
 #: src/usr/local/www/services_dyndns_edit.php:372
 #, php-format
@@ -13214,6 +13260,12 @@ msgid ""
 "key.%1$sDreamhost: Enter the API Key.%1$sGoDaddy: Enter the API secret."
 "%1$sDNSimple: Enter the API token.%1$sCloudflare: Enter the Global API Key."
 msgstr ""
+"FreeDNS (freedns.afraid.org): 输入FreeDNS提供的\"认证Token\" 。"
+"%1$sAzure：AD应用的客户端秘密 %1$sDNS Made Easy: "
+"动态DNS密码%1$sDNSimple: 用户账户 token%1$sDigitalOcean: 输入"
+"API token%1$路由53: 输入秘密访问秘钥。%1$sGleSYS: 输入API "
+"秘钥。%1$sDreamhost: 输入API 秘钥。%1$sGoDaddy: 输入API 秘密。"
+"%1$sDNSimple:输入API token.%1$sCloudflare: 输入Global API 秘钥."
 
 #: src/usr/local/www/services_dyndns_edit.php:386
 msgid "Zone ID"
@@ -13225,6 +13277,8 @@ msgid ""
 "Route53: Enter AWS Zone ID.%1$sAzure: Enter the resource id of the of the "
 "DNS Zone%1$sDNSimple: Enter the Record ID of record to update."
 msgstr ""
+"路由53: 输入AWS Zone ID.%1$sAzure: 输入DNS Zone的资源ID。"
+"%1$sDNSimple: 输入要更新的记录的Record ID。"
 
 #: src/usr/local/www/services_dyndns_edit.php:398
 msgid ""
@@ -13411,7 +13465,7 @@ msgstr "其他多个超时值必须为整数。"
 msgid ""
 "The Firewall Maximum Table Entries value must be greater than %s when block "
 "bogons is enabled."
-msgstr ""
+msgstr "当启用块bogons时，防火墙最大表项数值必须大于%s。"
 
 #: src/usr/local/www/system_advanced_firewall.php:365
 msgid "Changed Advanced Firewall/NAT settings."
@@ -13552,6 +13606,8 @@ msgid ""
 "snort, etc, combined.%1$sNote: Leave this blank for the default. On this "
 "system the default size is: %2$d"
 msgstr ""
+"组合了aliases, sshguard, snort等系统的表项的最大数目。"
+"%1$s注意：默认留空。该系统默认值为：%2$d"
 
 #: src/usr/local/www/system_advanced_firewall.php:508
 msgid "Firewall Maximum Fragment Entries"
@@ -13912,7 +13968,7 @@ msgstr "IGMP条目列表已更改。"
 
 #: src/usr/local/www/services_igmpproxy.php:94
 msgid "General IGMP Options"
-msgstr ""
+msgstr "通用IGMP选项"
 
 #: src/usr/local/www/services_igmpproxy.php:151
 msgid "Edit IGMP entry"
@@ -14224,7 +14280,7 @@ msgstr "已选择完全还原配置，但无法找到%s标记。"
 
 #: src/usr/local/www/diag_backup.php:325
 msgid "Removing pkg repository set after restoring full configuration"
-msgstr ""
+msgstr "恢复完全配置后移除pkg仓库集"
 
 #: src/usr/local/www/diag_backup.php:333 src/usr/local/www/diag_backup.php:341
 msgid "Restore serial console enabling in configuration."
@@ -15267,7 +15323,7 @@ msgstr "组 "
 msgid ""
 "Note: Groups 1, 2, 22, 23, and 24 provide weak security and should be "
 "avoided."
-msgstr ""
+msgstr "注意：组1，2，22，23和24提供安全性较弱，需避免。"
 
 #: src/usr/local/www/vpn_ipsec_mobile.php:675
 msgid "Login Banner"
@@ -15965,7 +16021,7 @@ msgstr "此条目不能被删除，因为它仍被OpenVPN %1$s %2$s引用。"
 #, php-format
 msgid ""
 "This entry cannot be deleted because it is required to reach Gateway: %s."
-msgstr ""
+msgstr "此条目不能被删除，因为它被用于到达网关：%s。"
 
 #: src/usr/local/www/firewall_virtual_ip.php:203
 #, php-format
@@ -16495,7 +16551,7 @@ msgstr "必须指定一个有效的端口号。"
 #: src/usr/local/www/system_advanced_admin.php:128
 #, php-format
 msgid "Invalid subnet '%s' added to Login Protection Whitelist"
-msgstr ""
+msgstr "无效的子网‘%s’被添加到登录保护白名单"
 
 #: src/usr/local/www/system_advanced_admin.php:359
 #, php-format
@@ -16564,14 +16620,14 @@ msgstr ""
 
 #: src/usr/local/www/system_advanced_admin.php:475
 msgid "OCSP Must-Staple"
-msgstr ""
+msgstr "OCSP必须装订"
 
 #: src/usr/local/www/system_advanced_admin.php:478
 msgid ""
 "When this is checked, OCSP Stapling is forced on in nginx. Remember to "
 "upload your certificate as a full chain, not just the certificate, or this "
 "option will be ignored by nginx."
-msgstr ""
+msgstr "当选中此项时，nginx上会强制启用OCSP装订。记得上传您的证书完整链，而不只是证书，否则该选项将被nginx忽略。"
 
 #: src/usr/local/www/system_advanced_admin.php:484
 msgid "WebGUI Login Autocomplete"
@@ -16671,7 +16727,7 @@ msgstr "安全SSH服务"
 
 #: src/usr/local/www/system_advanced_admin.php:566
 msgid "SSHd Key Only"
-msgstr ""
+msgstr "仅SSHd秘钥"
 
 #: src/usr/local/www/system_advanced_admin.php:573
 #, php-format
@@ -16683,10 +16739,15 @@ msgid ""
 "gain access. The default %3$sPassword or Public Key%4$s setting allows "
 "either a valid password or a valid authorized key to login."
 msgstr ""
+"当设为 %3$s仅公钥%4$s时，SSH访问需要授权的秘钥并且这些秘钥必须被配置给每个被授权安全shell访问的"
+"%1$s用户%2$s"
+"若设为%3$s需要密码和公钥%4$s，"
+"SSH进程需要授权的秘钥%5$s并且%6$s需要有效密码以进行访问。"
+"默认的%3$s密码或公钥%4$s配置允许使用有效密码或者有效授权秘钥登录。"
 
 #: src/usr/local/www/system_advanced_admin.php:582
 msgid "Allow Agent Forwarding"
-msgstr ""
+msgstr "允许代理转发"
 
 #: src/usr/local/www/system_advanced_admin.php:589
 msgid "SSH port"
@@ -16698,13 +16759,13 @@ msgstr "注意：留空则默认值为22。"
 
 #: src/usr/local/www/system_advanced_admin.php:596
 msgid "Login Protection"
-msgstr ""
+msgstr "登录保护"
 
 #: src/usr/local/www/system_advanced_admin.php:604
 msgid ""
 "Block attackers when their cumulative attack score exceeds threshold.  Most "
 "attacks have a score of 10."
-msgstr ""
+msgstr "当累计攻击分数超过阈值时阻止攻击者。大部分攻击的分数是10。"
 
 #: src/usr/local/www/system_advanced_admin.php:613
 #, php-format
@@ -16713,20 +16774,22 @@ msgid ""
 "Subsequent blocks increase by a factor of 1.5.%sAttacks are unblocked at "
 "random intervals, so actual block times will be longer."
 msgstr ""
+"当超过阈值后阻止攻击者一段初始设定的时间，该时间为blocktime秒。"
+"后续阻止时间会增加1.5倍。%s攻击会被随机解除阻止，所以实际阻止时间会更长。"
 
 #: src/usr/local/www/system_advanced_admin.php:624
 msgid ""
 "Remember potential attackers for up to detection_time seconds before "
 "resetting their score."
-msgstr ""
+msgstr "在重置其分数之前，记住潜在攻击者最多detection_time秒。"
 
 #: src/usr/local/www/system_advanced_admin.php:635
 msgid "Whitelist"
-msgstr ""
+msgstr "白名单"
 
 #: src/usr/local/www/system_advanced_admin.php:663
 msgid "Add address"
-msgstr ""
+msgstr "添加地址"
 
 #: src/usr/local/www/system_advanced_admin.php:669
 msgid "Serial Communications"
@@ -16804,7 +16867,7 @@ msgstr "分配权限 "
 #: src/usr/local/www/system_groupmanager_addprivs.php:94
 #, php-format
 msgid "Privileges changed for group: %s"
-msgstr ""
+msgstr "组%s的权限被更改"
 
 #: src/usr/local/www/system_groupmanager_addprivs.php:156
 msgid "Group Privileges"
@@ -17621,6 +17684,8 @@ msgid ""
 "Acccess-Requests.<br />Please note that this choice won't change the "
 "interface used for contacting the RADIUS server."
 msgstr ""
+"输入用于RADIUS Acccess-Requests 中\"NAS-IP-Address\" 属性的IP。"
+"<br />请注意，此选项不会更改用于联系RADIUS服务器的接口。"
 
 #: src/usr/local/www/system_authservers.php:837
 msgid "LDAP containers"
@@ -18405,7 +18470,7 @@ msgstr "证书吊销列表数据 "
 #: src/usr/local/www/system_crlmanager.php:211
 msgid ""
 "Lifetime is longer than the maximum allowed value. Use a shorter lifetime."
-msgstr ""
+msgstr "使用期超出允许最大值。使用一个较小的。"
 
 #: src/usr/local/www/system_crlmanager.php:345
 msgid "Create new Revocation List"
@@ -19017,23 +19082,25 @@ msgstr "协议字段压缩。 此选项为大多数帧保存每帧一个字节�
 
 #: src/usr/local/www/interfaces_ppps_edit.php:834
 msgid "Multilink over single link"
-msgstr ""
+msgstr "单链接多链接"
 
 #: src/usr/local/www/interfaces_ppps_edit.php:837
 msgid ""
 "Enable if the provider supports LCP multilink extensions over single link "
 "(will ignore MTU / MRU settings)"
-msgstr ""
+msgstr "如果提供者支持单链接LCP多链接扩展（将忽略MTU/MRU设置）则启用。"
 
 #: src/usr/local/www/interfaces_ppps_edit.php:841
 msgid "Force MTU"
-msgstr ""
+msgstr "强制MTU"
 
 #: src/usr/local/www/interfaces_ppps_edit.php:844
 msgid ""
 "Overwrite the result of LCP negotiation with a known working higher value. "
 "WARNING: This option violates RFC 1661 and can break connectivity."
 msgstr ""
+"将LCP协商结果改写为一个已知的可用的更大的值。"
+"警告：此选项违反了RFC 1661并可破坏连接性。"
 
 #: src/usr/local/www/interfaces_ppps_edit.php:850
 msgid "Link Parameters ("
@@ -19242,7 +19309,7 @@ msgstr "不能删除用户 %s ，因为您当前以该用户身份登录。"
 #: src/usr/local/www/system_usermanager.php:99
 #, php-format
 msgid "Successfully deleted user: %s"
-msgstr ""
+msgstr "成功删除用户：%s"
 
 #: src/usr/local/www/system_usermanager.php:142
 #, php-format
@@ -19251,21 +19318,21 @@ msgstr "不能删除用户%s，因为他是系统管理员。"
 
 #: src/usr/local/www/system_usermanager.php:147
 msgid "user"
-msgstr ""
+msgstr "用户"
 
 #: src/usr/local/www/system_usermanager.php:147
 msgid "users"
-msgstr ""
+msgstr "用户"
 
 #: src/usr/local/www/system_usermanager.php:166
 #, php-format
 msgid "Removed certificate association \"%s\" from user %s"
-msgstr ""
+msgstr "移除证书关联 \"%s\" 从用户 %s"
 
 #: src/usr/local/www/system_usermanager.php:176
 #, php-format
 msgid "Removed Privilege \"%s\" from user %s"
-msgstr ""
+msgstr "移除权限 \"%s\" 从用户 %s"
 
 #: src/usr/local/www/system_usermanager.php:215
 msgid "The username is longer than 32 characters."
@@ -19294,7 +19361,7 @@ msgstr "无效的内部证书颁发机构"
 #: src/usr/local/www/system_usermanager.php:464
 #, php-format
 msgid "Successfully %s user %s"
-msgstr ""
+msgstr "成功 %s 用户 %s"
 
 #: src/usr/local/www/system_usermanager.php:482
 msgid "Inherited from"
@@ -20260,7 +20327,7 @@ msgid ""
 "In order enable IPv6 and block bogon networks the Firewall Maximum Table "
 "Entries value in System / Advanced / Firewall must be increased at least to "
 "%s."
-msgstr ""
+msgstr "为启用IPv6并阻止 bogon网络，系统/高级/防火墙中设置的防火墙最大表项数值 必须增加到至少%s。"
 
 #: src/usr/local/www/system_advanced_network.php:211
 msgid "IPv6 Options"
@@ -20670,27 +20737,27 @@ msgstr "崩溃报告"
 
 #: src/usr/local/www/crash_reporter.php:108
 msgid "The firewall has enountered an error"
-msgstr ""
+msgstr "防火墙遇到一个错误"
 
 #: src/usr/local/www/crash_reporter.php:112
 msgid ""
 "Debugging output can be collected to share with HHFW developers or others "
 "providing support or assistance."
-msgstr ""
+msgstr "调试输出可以被搜集并分享给HHFW开发者或其他提供支持的人。"
 
 #: src/usr/local/www/crash_reporter.php:114
 msgid ""
 "Inspect the contents to ensure this information is acceptable to disclose "
 "before distributing these files."
-msgstr ""
+msgstr "在发布这些文件之前检查其内容，以保证此信息可接受并用于发布。"
 
 #: src/usr/local/www/crash_reporter.php:123
 msgid "Delete the crash report data and return to the Dashboard"
-msgstr ""
+msgstr "删除崩溃报告数据并返回仪表盘"
 
 #: src/usr/local/www/crash_reporter.php:133
 msgid "Download PHP Error Log"
-msgstr ""
+msgstr "下载PHP错误日志"
 
 #: src/usr/local/www/services_pppoe_edit.php:122
 msgid "Number of PPPoE users must be between 1 and 255"
@@ -21673,7 +21740,7 @@ msgstr "入网门户不能在接口％%1$s 上使用，它已经在 %2$s 实例�
 
 #: src/usr/local/www/services_captiveportal.php:221
 msgid "Authentication method is invalid."
-msgstr ""
+msgstr "认证方法无效。"
 
 #: src/usr/local/www/services_captiveportal.php:226
 msgid "Certificate must be specified for HTTPS login."
@@ -21699,7 +21766,7 @@ msgstr "空闲超时至少为1分钟。"
 
 #: src/usr/local/www/services_captiveportal.php:263
 msgid "The traffic quota must be at least 1 megabyte."
-msgstr ""
+msgstr "流量限额必须至少为1M。"
 
 #: src/usr/local/www/services_captiveportal.php:267
 msgid "The pass-through credit count must be a number or left blank."
@@ -21718,23 +21785,23 @@ msgstr "每个客户端IP地址的并发连接上限不能大于全局最大值�
 
 #: src/usr/local/www/services_captiveportal.php:280
 msgid "You need to select at least one authentication server."
-msgstr ""
+msgstr "您需要选择至少一个认证服务器。"
 
 #: src/usr/local/www/services_captiveportal.php:292
 msgid "RADIUS MAC Authentication can only be performed on a RADIUS server."
-msgstr ""
+msgstr "RADIUS MAC认证只能在RADIUS服务器上执行。"
 
 #: src/usr/local/www/services_captiveportal.php:297
 msgid "RADIUS MAC Authentication cannot be used if MAC filtering is disabled"
-msgstr ""
+msgstr "若MAC过滤被禁用，则不能使用RADIUS MAC认证。"
 
 #: src/usr/local/www/services_captiveportal.php:303
 msgid "You need to select at least one accounting server."
-msgstr ""
+msgstr "您需要选择至少一个账单服务器。"
 
 #: src/usr/local/www/services_captiveportal.php:306
 msgid "You need to select an option for Accounting Updates !"
-msgstr ""
+msgstr "您需要选择一个账单更新选项！"
 
 #: src/usr/local/www/services_captiveportal.php:309
 msgid ""
@@ -21786,7 +21853,7 @@ msgstr ""
 
 #: src/usr/local/www/services_captiveportal.php:577
 msgid "Traffic quota (Megabytes)"
-msgstr ""
+msgstr "流量限额（M）"
 
 #: src/usr/local/www/services_captiveportal.php:580
 msgid ""
@@ -21794,6 +21861,8 @@ msgid ""
 "inclusive of both downloads and uploads. They may log in again immediately, "
 "though. Leave this field blank for no traffic quota."
 msgstr ""
+"超出流量后客户端将被断开连接，包括下载和上传。"
+"但可以立即重新登录。若无流量限额则留空。"
 
 #: src/usr/local/www/services_captiveportal.php:585
 msgid "Pass-through credits per MAC address."
@@ -21853,6 +21922,8 @@ msgid ""
 "This field will be accessible through $PORTAL_REDIRURL$ variable in "
 "captiveportal's HTML pages."
 msgstr ""
+"设置一个默认重定向URL。仅当强制网络门户不知道如何重定向时，在认证后访问者将被重定向到此URL。"
+"该域可通过强制网络门户HTML页面的 $PORTAL_REDIRURL$ 变量访问。"
 
 #: src/usr/local/www/services_captiveportal.php:624
 msgid "After authentication Redirection URL"
@@ -21862,7 +21933,7 @@ msgstr "认证后重定向网址"
 msgid ""
 "Set a forced redirection URL. Clients will be redirected to this URL instead "
 "of the one they initially tried to access after they've authenticated."
-msgstr ""
+msgstr "设置一个强制重定向URL。客户端将被重定向到此URL，而不是其被认证后最初试图访问的。"
 
 #: src/usr/local/www/services_captiveportal.php:631
 msgid "Blocked MAC address redirect URL"
@@ -21912,6 +21983,9 @@ msgid ""
 "remove it manually from the %1$sMAC tab%2$s or send a POST from another "
 "system. If this is enabled, the logout window will not be shown."
 msgstr ""
+"若启用，则用户被成功认证后，一个MAC透传项被自动添加。该MAC地址的用户将无需再次认证。"
+"若需移除此MAC透传项，则可登录并手动从%1$sMAC tab%2$s移除它，或者从另一个系统发送一个POST。"
+"若启用，将不显示注销窗口。"
 
 #: src/usr/local/www/services_captiveportal.php:665
 msgid "Per-user bandwidth restriction"
@@ -21930,17 +22004,17 @@ msgid ""
 "If this option is set, the captive portal will restrict each user who logs "
 "in to the specified default bandwidth. RADIUS servers can override the "
 "default settings. Leave empty for no limit."
-msgstr ""
+msgstr "若此选项被选中，则强制网络门户将限制每个登录用户指定的默认带宽。RADIUS服务器可改写默认设置。留空则无限制。"
 
 #: src/usr/local/www/services_captiveportal.php:687
 msgid "Use custom captive portal page"
-msgstr ""
+msgstr "使用客户强制网络门户页面"
 
 #: src/usr/local/www/services_captiveportal.php:690
 msgid ""
 "If set a portal.html page must be created and uploaded. If unchecked the "
 "default template will be used"
-msgstr ""
+msgstr "若选中，则必须创建和上传一个portal.html页面。若不选中，则使用默认模板。"
 
 #: src/usr/local/www/services_captiveportal.php:694
 msgid "HTML Page Contents"
@@ -22046,15 +22120,15 @@ msgstr "当前注销页面"
 
 #: src/usr/local/www/services_captiveportal.php:831
 msgid "Captive Portal Login Page"
-msgstr ""
+msgstr "强制网络门户登录页面"
 
 #: src/usr/local/www/services_captiveportal.php:836
 msgid "Display custom logo image"
-msgstr ""
+msgstr "显示客户logo图片"
 
 #: src/usr/local/www/services_captiveportal.php:843
 msgid "Logo Image"
-msgstr ""
+msgstr "Logo图片"
 
 #: src/usr/local/www/services_captiveportal.php:846
 msgid ""
@@ -22064,14 +22138,17 @@ msgid ""
 "stored in the config</strong>. The default logo will be used if no custom "
 "image is present."
 msgstr ""
+"添加一个logo用于默认登录界面。文件将被重命名为captiveportal-logo.*。"
+"图片大小将被调整为适合给定区域。可以是任何图片类型： .png, .jpg, .svg。 "
+"<strong>该图片不会存储在配置中。</strong> 若无客户图片则使用默认logo。 "
 
 #: src/usr/local/www/services_captiveportal.php:850
 msgid "Display custom background image"
-msgstr ""
+msgstr "显示客户背景图片"
 
 #: src/usr/local/www/services_captiveportal.php:857
 msgid "Background Image"
-msgstr ""
+msgstr "背景图片"
 
 #: src/usr/local/www/services_captiveportal.php:860
 msgid ""
@@ -22080,16 +22157,18 @@ msgid ""
 "screen. <strong>This image will not be stored in the config</strong>. The "
 "default background image will be used if no custom background is present."
 msgstr ""
+"添加一个背景图片用于默认登录界面。文件将被重命名为captiveportal-background.*。背景图片将填满整个屏幕。"
+"<strong>该图片不会存储在配置中。</strong>. 若无客户背景图，则使用默认背景图。"
 
 #: src/usr/local/www/services_captiveportal.php:864
 msgid "Terms and Conditions"
-msgstr ""
+msgstr "条款和条件"
 
 #: src/usr/local/www/services_captiveportal.php:866
 msgid ""
 "Copy and paste terms and conditions for use in the captive portal. HTML tags "
 "will be stripped out"
-msgstr ""
+msgstr "复制和粘贴条款和条件用于强制网络门户。HTML标签将被剔除。"
 
 #: src/usr/local/www/services_captiveportal.php:873
 #: src/usr/local/www/vpn_ipsec_phase1.php:737
@@ -22110,6 +22189,10 @@ msgid ""
 ">- \"RADIUS MAC Authentication\" method will try to authenticate devices "
 "automatically with their MAC address without displaying any login page."
 msgstr ""
+"为此区域选择一个认证方法。必须选择一个方法。"
+"<br />- \"认证后端\" 将强制显示登录页面，并使用账户和密码或者凭证来认证用户。 "
+"<br />- \"无\" 将强制显示登录页面，但将接受任何点击\"提交\"按钮的访问者 。"
+"<br />- \"RADIUS MAC 认证\" 将尝试自动使用MAC地址来认证设备，而不显示登录页面。"
 
 #: src/usr/local/www/services_captiveportal.php:900
 msgid ""
@@ -22117,10 +22200,12 @@ msgid ""
 "system_authservers.php\">User Manager</a>.<br/><span class="
 "\"vouchers_helptext\">Vouchers could also be used, please go to "
 msgstr ""
+"您可在<a href=\"/system_authservers.php\">用户管理</a>中添加一个远程认证服务器。"
+"<br/><span class=\"vouchers_helptext\">也可使用凭证，请到 "
 
 #: src/usr/local/www/services_captiveportal.php:905
 msgid "Secondary authentication Server"
-msgstr ""
+msgstr "第二认证服务器"
 
 #: src/usr/local/www/services_captiveportal.php:914
 msgid ""
@@ -22130,6 +22215,8 @@ msgid ""
 "your users. If you don't need multiple authentication method, then leave "
 "this setting empty."
 msgstr ""
+"您可选择第二批服务器来认证用户。用户将可以使用单独的HTML输入来登录。"
+"<br />该设置可以用于给用户提供多种认证方法。若不需要多种认证方法，则留空。"
 
 #: src/usr/local/www/services_captiveportal.php:920
 msgid "NAS Identifier"
@@ -22139,11 +22226,11 @@ msgstr "NAS标识符"
 #, php-format
 msgid ""
 "Specify a NAS identifier to override the default value (CaptivePortal-%s)"
-msgstr ""
+msgstr "指定一个NAS标识符以更改默认值（强制网络门户 - %s）"
 
 #: src/usr/local/www/services_captiveportal.php:927
 msgid "Reauthenticate Users"
-msgstr ""
+msgstr "重新认证用户"
 
 #: src/usr/local/www/services_captiveportal.php:930
 msgid ""
@@ -22154,14 +22241,18 @@ msgid ""
 "portal database while a user is logged in; The cached credentials are "
 "necessary for the portal to perform automatic reauthentication requests."
 msgstr ""
+"若启用了重新认证，每分钟都会向服务器发送每个登录用户的请求。"
+"若某用户收到拒绝访问的响应，则该用户立即从强制网络门户断开连接。"
+"重新认证需要在用户登录后将其凭证缓存在强制网络门户数据库中。"
+"缓存的凭证是门户执行自动重新认证请求所必须的。"
 
 #: src/usr/local/www/services_captiveportal.php:939
 msgid "Local Authentication Privileges"
-msgstr ""
+msgstr "本地认证权限"
 
 #: src/usr/local/www/services_captiveportal.php:947
 msgid "RADIUS MAC Secret"
-msgstr ""
+msgstr "RADIUS MAC秘密"
 
 #: src/usr/local/www/services_captiveportal.php:950
 msgid ""
@@ -22169,16 +22260,18 @@ msgid ""
 "address as username, and the password entered below as password. Devices "
 "will still need to make one HTTP request to get connected, through."
 msgstr ""
+"RADIUS MAC 将自动使用MAC地址作为用户名、如下输入的密码作为密码来认证设备。"
+"但设备仍需发送一个HTTP 请求以建立连接。"
 
 #: src/usr/local/www/services_captiveportal.php:954
 msgid "Login page Fallback"
-msgstr ""
+msgstr "登录页面回退"
 
 #: src/usr/local/www/services_captiveportal.php:957
 msgid ""
 "When enabled, users will be redirected to the captive portal login page when "
 "RADIUS MAC authentication failed."
-msgstr ""
+msgstr "若启用，当RADIUS MAC认证失败时，用户将被重定向到强制网络门户登录页面。"
 
 #: src/usr/local/www/services_captiveportal.php:964
 msgid ""
@@ -22188,7 +22281,7 @@ msgstr "若启用此项，防火墙会按照从RADIUS服务器收到的会话超
 
 #: src/usr/local/www/services_captiveportal.php:968
 msgid "Traffic quota"
-msgstr ""
+msgstr "流量限额"
 
 #: src/usr/local/www/services_captiveportal.php:971
 msgid ""
@@ -22199,7 +22292,7 @@ msgstr ""
 
 #: src/usr/local/www/services_captiveportal.php:975
 msgid "Per-user bandwidth restrictions"
-msgstr ""
+msgstr "每个用户的带宽限制"
 
 #: src/usr/local/www/services_captiveportal.php:978
 msgid ""
@@ -22238,7 +22331,7 @@ msgstr ""
 #: src/usr/local/www/services_captiveportal.php:1014
 #: src/usr/local/www/services_captiveportal.php:1019
 msgid "Accounting Server"
-msgstr ""
+msgstr "账单服务器"
 
 #: src/usr/local/www/services_captiveportal.php:1025
 msgid ""
@@ -22248,7 +22341,7 @@ msgstr ""
 
 #: src/usr/local/www/services_captiveportal.php:1029
 msgid "Send accounting updates"
-msgstr ""
+msgstr "发送账单更新"
 
 #: src/usr/local/www/services_captiveportal.php:1065
 msgid ""
@@ -22947,7 +23040,7 @@ msgstr "断开连接之前允许的连续故障数。"
 
 #: src/usr/local/www/vpn_ipsec_phase1.php:1230
 msgid "Generate new Pre-Shared Key"
-msgstr ""
+msgstr "生成新的预分享秘钥"
 
 #: src/usr/local/www/uploadconfig.php:43
 msgid "ERR Could not save configuration."
@@ -23044,7 +23137,7 @@ msgstr "别名不能以pkg_开头。"
 
 #: src/usr/local/www/firewall_aliases_edit.php:204
 msgid "Alias value cannot be the same as the alias name: `"
-msgstr ""
+msgstr "别名数值不能与别名名称相同: `"
 
 #: src/usr/local/www/firewall_aliases_edit.php:225
 msgid "A valid URL must be provided."
@@ -23284,7 +23377,7 @@ msgstr "删除桥接口"
 #: src/usr/local/www/system_usermanager_addprivs.php:84
 #, php-format
 msgid "Privileges changed for user: %s"
-msgstr ""
+msgstr "用户%s的权限被更改。"
 
 #: src/usr/local/www/system_usermanager_addprivs.php:140
 msgid "User Privileges"
@@ -23481,7 +23574,7 @@ msgstr "Harden DNSSEC数据选项只能在启用DNSSEC支持时启用。"
 
 #: src/usr/local/www/services_unbound_advanced.php:249
 msgid "Advanced Privacy Options"
-msgstr ""
+msgstr "高级隐私选项"
 
 #: src/usr/local/www/services_unbound_advanced.php:253
 msgid "Hide Identity"
@@ -23493,7 +23586,7 @@ msgstr "隐藏版本"
 
 #: src/usr/local/www/services_unbound_advanced.php:267
 msgid "Query Name Minimization"
-msgstr ""
+msgstr "查询名称最小化"
 
 #: src/usr/local/www/services_unbound_advanced.php:270
 #, php-format
@@ -23507,7 +23600,7 @@ msgstr ""
 
 #: src/usr/local/www/services_unbound_advanced.php:274
 msgid "Strict Query Name Minimization"
-msgstr ""
+msgstr "严格的查询名称最小化"
 
 #: src/usr/local/www/services_unbound_advanced.php:277
 #, php-format
@@ -24105,21 +24198,21 @@ msgstr "必须指定一个有效的本地网络IP地址。 "
 
 #: src/usr/local/www/vpn_ipsec_phase2.php:157
 msgid "VTI requires a valid local address"
-msgstr ""
+msgstr "VTI需要一个有效的本地地址"
 
 #: src/usr/local/www/vpn_ipsec_phase2.php:160
 msgid "An IPv4 local address was specified but the mode is not set to tunnel"
-msgstr ""
+msgstr "指定了一个IPv4本地地址，但模式没有设为隧道"
 
 #: src/usr/local/www/vpn_ipsec_phase2.php:162
 msgid "An IPv6 local address was specified but the mode is not set to tunnel6"
-msgstr ""
+msgstr "指定了一个IPv6本地地址，但模式没有设为隧道6"
 
 #: src/usr/local/www/vpn_ipsec_phase2.php:167
 msgid ""
 "VTI requires a valid local network or IP address for its endpoint address, "
 "it cannot use a network macro for a different interface (e.g. LAN)."
-msgstr ""
+msgstr "VTI需要一个有效的本地网络或IP地址用于其末端地址，不能将一个网络宏用于不同接口（如LAN）。"
 
 #: src/usr/local/www/vpn_ipsec_phase2.php:178
 #: src/usr/local/www/vpn_ipsec_phase2.php:208
@@ -24168,20 +24261,20 @@ msgstr "必须指定有效的远程网络IP地址。"
 
 #: src/usr/local/www/vpn_ipsec_phase2.php:223
 msgid "VTI requires a valid remote address"
-msgstr ""
+msgstr "VTI需要一个有效的远程地址"
 
 #: src/usr/local/www/vpn_ipsec_phase2.php:226
 msgid "An IPv4 remote network was specified but the mode is not set to tunnel"
-msgstr ""
+msgstr "指定了一个IPv4远程网络，但模式未设为隧道"
 
 #: src/usr/local/www/vpn_ipsec_phase2.php:228
 msgid ""
 "An IPv6 remote network was specified but the mode is not set to tunnel6"
-msgstr ""
+msgstr "指定了一个IPv6远程网络，但模式未设为隧道6"
 
 #: src/usr/local/www/vpn_ipsec_phase2.php:237
 msgid "VTI is not compatible with mobile IPsec."
-msgstr ""
+msgstr "VTI与移动IPsec不兼容。"
 
 #: src/usr/local/www/vpn_ipsec_phase2.php:258
 msgid "Phase2 with this Local Network is already defined for mobile clients."
@@ -24197,7 +24290,7 @@ msgstr "已为阶段1定义了这个本地/远程网络组合的阶段2。"
 msgid ""
 "Cannot switch away from VTI while the interface is assigned. Remove the "
 "interface assignment before switching away from VTI."
-msgstr ""
+msgstr "指定接口后无法切换出VTI。切换出VTI前先移除指定的接口。"
 
 #: src/usr/local/www/vpn_ipsec_phase2.php:337
 #: src/usr/local/www/vpn_ipsec_phase2.php:342
@@ -24855,7 +24948,7 @@ msgstr "IPv6配置类型"
 
 #: src/usr/local/www/interfaces.php:1869
 msgid "IPv4/IPv6 Configuration"
-msgstr ""
+msgstr "IPv4/IPv6配置"
 
 #: src/usr/local/www/interfaces.php:1896
 msgid ""
@@ -25010,7 +25103,7 @@ msgstr ""
 
 #: src/usr/local/www/interfaces.php:2111
 msgid "DHCP VLAN Priority"
-msgstr ""
+msgstr "DHCP VLAN优先级"
 
 #: src/usr/local/www/interfaces.php:2117 src/usr/local/www/interfaces.php:2346
 msgid "Normally off unless specifically required by the ISP."
@@ -35360,14 +35453,14 @@ msgstr "动态DNS %1$s (%2$s): _checkIP() starting."
 #: src/etc/inc/dyndns.class:2304
 #, php-format
 msgid "Dynamic DNS %1$s (%2$s): %3$s extracted from Check IP Service"
-msgstr ""
+msgstr "动态DNS %1$s (%2$s)：从检查IP服务解析到 %3$s"
 
 #: src/etc/inc/dyndns.class:2307
 #, php-format
 msgid ""
 "Dynamic DNS %1$s (%2$s): IP address could not be extracted from Check IP "
 "Service"
-msgstr ""
+msgstr "动态DNS %1$s (%2$s)：无法从检查IP服务中解析到IP地址"
 
 #: src/etc/inc/dyndns.class:2312
 #, php-format
@@ -35397,6 +35490,23 @@ msgid ""
 "\t\t\t\t\t</button>\n"
 "\t\t\t\t\t</div>"
 msgstr ""
+"<p align=\"center\"><font size=\"3\">版权&copy; 2004-2049. 华汉. "
+"版权所有.</p>\n"
+"\t\t\t\t\t<p align=\"center\"><strong>未经许可不得商业发行 "
+"HHFW&reg; 软件.</strong>\n"
+"\t\t\t\t\t</p>\n"
+"\t\t\t\t\t<p>HHFW&reg; 是华汉所持有的商标，并为华汉专有。 "
+"</p>\n"
+"\t\t\t\t\t<p>法律禁止任何未经授权的使用HHFW&reg; 商标。 "
+"</p>\n"
+"\t\t\t\t\t</div>\n"
+"\t\t\t\t\t<div class=\"modal-footer\" style=\"background-color:#1e3f75; "
+"color:white;\">\n"
+"\t\t\t\t\t<button type=\"button\" class=\"btn btn-xs btn-success\" data-"
+"dismiss=\"modal\" aria-label=\"Close\">\n"
+"\t\t\t\t\t\t\t<span aria-hidden=\"true\">Accept</span>\n"
+"\t\t\t\t\t</button>\n"
+"\t\t\t\t\t</div>"
 
 #: src/etc/inc/voucher.inc:144
 #, php-format
@@ -35477,15 +35587,15 @@ msgstr "同步凭证"
 
 #: src/etc/inc/captiveportal.inc:47
 msgid "First Authentication Method "
-msgstr ""
+msgstr "第一认证方法"
 
 #: src/etc/inc/captiveportal.inc:48
 msgid "Second Authentication Method "
-msgstr ""
+msgstr "第二认证方法"
 
 #: src/etc/inc/captiveportal.inc:139
 msgid "Voucher Code"
-msgstr ""
+msgstr "凭证代码"
 
 #: src/etc/inc/captiveportal.inc:312
 msgid "Redirecting to"
@@ -35497,19 +35607,19 @@ msgstr "点击下面的按钮断开连接"
 
 #: src/etc/inc/captiveportal.inc:1547
 msgid "Invalid credentials specified"
-msgstr ""
+msgstr "使用了无效的凭证"
 
 #: src/etc/inc/captiveportal.inc:1604 src/etc/inc/captiveportal.inc:1628
 msgid "Internal Error"
-msgstr ""
+msgstr "内部错误"
 
 #: src/etc/inc/captiveportal.inc:1649
 msgid "Access Denied"
-msgstr ""
+msgstr "拒绝访问"
 
 #: src/etc/inc/captiveportal.inc:1653
 msgid "RADIUS MAC Authentication Failed."
-msgstr ""
+msgstr "RADIUS MAC认证失败。"
 
 #: src/etc/inc/captiveportal.inc:1875
 #, php-format
@@ -35894,7 +36004,7 @@ msgstr "记录由“阻止专用网络”规则阻止的数据包"
 
 #: src/usr/local/www/services_unbound_domainoverride_edit.php:135
 msgid "Use SSL/TLS for DNS Queries forwarded to this server"
-msgstr ""
+msgstr "对转发到该服务器的DNS查询使用SSL/TLS"
 
 #: src/usr/local/www/services_unbound_domainoverride_edit.php:157
 #: src/usr/local/www/system_certmanager.php:965
@@ -36013,7 +36123,7 @@ msgstr "启用DNS解析器"
 
 #: src/usr/local/www/services_unbound.php:315
 msgid "Respond to incoming SSL/TLS queries from local clients"
-msgstr ""
+msgstr "响应本地客户端发来的SSL/TLS查询"
 
 #: src/usr/local/www/services_unbound.php:379
 msgid "Enable DNSSEC Support"
@@ -36025,7 +36135,7 @@ msgstr "启用转发模式"
 
 #: src/usr/local/www/services_unbound.php:395
 msgid "Use SSL/TLS for outgoing DNS Queries to Forwarding Servers"
-msgstr ""
+msgstr "对发给转发服务器的DNS查询使用SSL/TLS"
 
 #: src/usr/local/www/services_unbound.php:402
 msgid "Register DHCP leases in the DNS Resolver"
@@ -36115,7 +36225,7 @@ msgstr "启用电源管理"
 
 #: src/usr/local/www/system_advanced_misc.php:485
 msgid "Forcefully disable the kernel PTI"
-msgstr ""
+msgstr "强制禁用内核PTI"
 
 #: src/usr/local/www/system_advanced_misc.php:498
 msgid "Do not kill connections when schedule expires"
@@ -36259,15 +36369,15 @@ msgstr "日志NTP对等体统计（默认值：禁用）"
 
 #: src/usr/local/www/services_acb_settings.php:211
 msgid "Enable automatic configuration backups"
-msgstr ""
+msgstr "启用自动配置备份"
 
 #: src/usr/local/www/services_acb_settings.php:220
 msgid "Automatically backup on every configuration change"
-msgstr ""
+msgstr "配置变化时自动备份"
 
 #: src/usr/local/www/services_acb_settings.php:236
 msgid "Automatically backup on a regular schedule"
-msgstr ""
+msgstr "固定时间自动备份"
 
 #: src/usr/local/www/services_captiveportal_vouchers.php:440
 msgid "Enable the creation, generation and activation of rolls with vouchers"
@@ -36386,7 +36496,7 @@ msgstr "自动创建出站NAT规则，将流量引导回同一子网。"
 
 #: src/usr/local/www/services_igmpproxy.php:99
 msgid "Enable IGMP"
-msgstr ""
+msgstr "开启IGMP"
 
 #: src/usr/local/www/system_gateways_edit.php:150
 msgid "Disable this gateway"
@@ -36546,7 +36656,7 @@ msgstr "禁用HTTP严格传输安全"
 
 #: src/usr/local/www/system_advanced_admin.php:476
 msgid "Force OCSP Stapling in nginx"
-msgstr ""
+msgstr "强制nginx中OCSP装订。"
 
 #: src/usr/local/www/system_advanced_admin.php:485
 msgid "Enable webConfigurator login autocomplete"
@@ -36574,7 +36684,7 @@ msgstr "启用安全SSH"
 
 #: src/usr/local/www/system_advanced_admin.php:583
 msgid "Enables ssh-agent forwarding support."
-msgstr ""
+msgstr "开启ssh-agent转发支持。"
 
 #: src/usr/local/www/system_advanced_admin.php:675
 msgid ""
@@ -36718,11 +36828,11 @@ msgstr "禁用协议压缩（默认情况下自动协商） "
 
 #: src/usr/local/www/interfaces_ppps_edit.php:835
 msgid "Multilink extensions over single link"
-msgstr ""
+msgstr "单链接多链接扩展"
 
 #: src/usr/local/www/interfaces_ppps_edit.php:842
 msgid "Force MTU value to a known higher value"
-msgstr ""
+msgstr "强制MTU为一个已知的更高数值"
 
 #: src/usr/local/www/interfaces_ppps_edit.php:888
 msgid "<span id=\"linkparamhelp\">"
@@ -36954,15 +37064,15 @@ msgstr "开启用户带宽限制 "
 
 #: src/usr/local/www/services_captiveportal.php:688
 msgid "Enable to use a custom captive portal login page"
-msgstr ""
+msgstr "开启以使用用户强制门户登录页面"
 
 #: src/usr/local/www/services_captiveportal.php:837
 msgid "Enable to use a custom uploaded logo"
-msgstr ""
+msgstr "开启以使用用户上传的logo图片"
 
 #: src/usr/local/www/services_captiveportal.php:851
 msgid "Enable to use a custom uploaded background image"
-msgstr ""
+msgstr "开启以使用用户上传的背景图片"
 
 #: src/usr/local/www/services_captiveportal.php:928
 msgid "Reauthenticate connected users every minute"
@@ -36975,7 +37085,7 @@ msgstr "仅允许具有“入网门户登录”权限的用户/组"
 #: src/usr/local/www/services_captiveportal.php:955
 msgid ""
 "Display the login page as fallback if RADIUS MAC authentication failed."
-msgstr ""
+msgstr "若RADIUS MAC认证失败，则显示登录页面。"
 
 #: src/usr/local/www/services_captiveportal.php:962
 msgid "Use RADIUS Session-Timeout attributes"
@@ -36983,17 +37093,17 @@ msgstr "使用RADIUS会话超时属性 "
 
 #: src/usr/local/www/services_captiveportal.php:969
 msgid "Use RADIUS HHFW-Max-Total-Octets attribute"
-msgstr ""
+msgstr "使用RADIUS HHFW-Max-Total-Octets属性"
 
 #: src/usr/local/www/services_captiveportal.php:976
 msgid ""
 "Use RADIUS HHFW-Bandwidth-Max-Up and HHFW-Bandwidth-Max-Down "
 "attributes"
-msgstr ""
+msgstr "使用RADIUS HHFW-Bandwidth-Max-Up和HHFW-Bandwidth-Max-Down属性"
 
 #: src/usr/local/www/services_captiveportal.php:1001
 msgid "Send RADIUS accounting packets."
-msgstr ""
+msgstr "发送RADIUS账单包。"
 
 #: src/usr/local/www/services_captiveportal.php:1036
 msgid "No updates"
@@ -37017,7 +37127,7 @@ msgstr "反相输入八位字节和输出八位字节"
 
 #: src/usr/local/www/services_captiveportal.php:1083
 msgid "Include idle time when users get disconnected due to idle timeout"
-msgstr ""
+msgstr "包含当用户由于空闲超时导致断链时的空闲时间"
 
 #: src/usr/local/www/services_captiveportal.php:1095
 msgid "Enable HTTPS login"
@@ -37075,12 +37185,12 @@ msgstr "version.server和version.bind查询被拒绝"
 msgid ""
 "Send minimum amount of QNAME/QTYPE information to upstream servers to "
 "enhance privacy"
-msgstr ""
+msgstr "向上行服务器发送最小量的QNAME/QTYPE信息以增强隐私"
 
 #: src/usr/local/www/services_unbound_advanced.php:275
 msgid ""
 "Do not fall-back to sending full QNAME to potentially broken DNS servers"
-msgstr ""
+msgstr "不要发送完整QNAME到潜在受损的DNS服务器"
 
 #: src/usr/local/www/services_unbound_advanced.php:286
 msgid ""
@@ -37201,7 +37311,7 @@ msgstr "启用接口"
 msgid ""
 "This interface type does not support manual address configuration on this "
 "page. "
-msgstr ""
+msgstr "此接口类型不支持该页手动地址配置。"
 
 #: src/usr/local/www/interfaces.php:1981
 msgid "IPv6 will use the IPv4 connectivity link (PPPoE)"
@@ -37213,7 +37323,7 @@ msgstr "配置覆盖"
 
 #: src/usr/local/www/interfaces.php:2115
 msgid "Enable dhcpclient VLAN Priority tagging"
-msgstr ""
+msgstr "启用dhcpclient VLAN优先级标签"
 
 #: src/usr/local/www/interfaces.php:2183
 msgid "FreeBSD default"
@@ -37335,7 +37445,7 @@ msgstr "启用基于SSL / TLS的SMTP"
 
 #: src/usr/local/www/system_advanced_notifications.php:278
 msgid "Validate the SSL/TLS certificate presented by the server"
-msgstr ""
+msgstr "验证服务器提供的SSL/TLS证书"
 
 #: src/usr/local/www/system_advanced_notifications.php:335
 msgid "Disable the startup/shutdown beep"
@@ -37459,7 +37569,7 @@ msgstr "为LAN接口IP启用旁路"
 
 #: src/usr/local/www/vpn_ipsec_settings.php:358
 msgid "Use asynchronous mode to parallelize multiple cryptography jobs"
-msgstr ""
+msgstr "使用异步模式并行处理多个加密任务"
 
 #: src/usr/local/www/status_logs_settings.php:239
 msgid "Show log entries in reverse order (newest entries on top)"
@@ -37588,7 +37698,7 @@ msgstr "启用限制器和其他选项"
 
 #: src/etc/inc/shaper.inc:4390 src/etc/inc/shaper.inc:4819
 msgid "Enable Explicit Congestion Notification (ECN)"
-msgstr ""
+msgstr "启用显示拥塞通知（ECN）"
 
 #: src/etc/inc/shaper.inc:4723
 msgid "Enable this queue"
