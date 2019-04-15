@@ -5363,7 +5363,7 @@ msgstr "欢迎来到%s!"
 
 #: src/usr/local/www/index.php:202
 msgid "One moment while the initial setup wizard starts."
-msgstr "初始设置向导启动时的一会儿。"
+msgstr "初始设置向导正在启动，请稍等。"
 
 #: src/usr/local/www/index.php:203
 msgid ""
@@ -22288,7 +22288,7 @@ msgid ""
 "When enabled, clients will be disconnected after exceeding the amount of "
 "traffic, inclusive of both downloads and uploads, retrieved from the RADIUS "
 "HHFW-Max-Total-Octets attribute."
-msgstr ""
+msgstr "开启后，若超过流量限额则客户端将断开连接，包括下载和上传。取自于RADIUS HHFW-Max-Total-Octets属性。"
 
 #: src/usr/local/www/services_captiveportal.php:975
 msgid "Per-user bandwidth restrictions"
@@ -22299,7 +22299,7 @@ msgid ""
 "When enabled, the bandwidth assigned to a client will be limited to the "
 "values retrieved from the RADIUS HHFW-Bandwidth-Max-Up and HHFW-"
 "Bandwidth-Max-Down attributes or from the comparable WISPr attributes."
-msgstr ""
+msgstr "开启后，分配至客户端的带宽将被限制在取自于RADIUS RADIUS HHFW-Bandwidth-Max-Up和HHFW-Bandwidth-Max-Down属性或者可比较的WISPr属性的数值。"
 
 #: src/usr/local/www/services_captiveportal.php:985
 msgid "Single dash"
@@ -22321,12 +22321,16 @@ msgid ""
 "334455 %1$sIETF: 00-11-22-33-44-55 %1$sCisco: 0011.2233.4455 %1$sUnformatted:"
 " 001122334455"
 msgstr ""
+"此选项更改执行RADIUS认证时使用的MAC地址格式。"
+"%1$s默认： 00:11:22:33:44:55 %1$sSingle dash： 001122-"
+"334455 %1$sIETF： 00-11-22-33-44-55 %1$sCisco： 0011.2233.4455 %1$sUnformatted:"
+" 001122334455"
 
 #: src/usr/local/www/services_captiveportal.php:1003
 msgid ""
 "If enabled, accounting request will be made for users identified against any "
 "RADIUS server."
-msgstr ""
+msgstr "若启用，任何RADIUS服务器的用户都将生成账单请求。"
 
 #: src/usr/local/www/services_captiveportal.php:1014
 #: src/usr/local/www/services_captiveportal.php:1019
@@ -22337,7 +22341,7 @@ msgstr "账单服务器"
 msgid ""
 "You can add a Radius Accounting server in the <a href=\"/system_authservers."
 "php\">User Manager</a>."
-msgstr ""
+msgstr "您可在 <a href=\"/system_authservers.php\">用户管理</a>中添加一个Radius 账单服务器。"
 
 #: src/usr/local/www/services_captiveportal.php:1029
 msgid "Send accounting updates"
@@ -22356,6 +22360,12 @@ msgid ""
 "is the purpose of \"Stop/Start\" option. FreeRADIUS does not support this "
 "option very well, you should select \"Stop/Start (FreeRADIUS)\" instead."
 msgstr ""
+"此区域设置账单更新的方式：<br />- 若选择\"不更新\"， "
+"则当任一用户连接和断开连接时，只发送一个 \"账单开始\" 和一个\"账单结束\"请求。"
+"<br />- 若选择 \"间歇的\", 则每一个用户都会定期（每分钟）向RADIUS服务器发送\"账单更新\"请求。 "
+"<br />- 在某些情况下，您可能需要模拟用户每分钟都会断开连接并重新连接（例如发送一个账单结束再发送一个账单开始），"
+"而不是发送账单更新，此时您可选择\"停止/开始\" 选项。"
+"FreeRADIUS对此选项支持不好，您应选择 \"停止/开始 (FreeRADIUS)\" 。"
 
 #: src/usr/local/www/services_captiveportal.php:1074
 msgid "Accounting style"
@@ -22380,6 +22390,8 @@ msgid ""
 "request, when a user get disconnected after exceeding the idle timeout. If "
 "not checked, the sent stop time will be the last activity time."
 msgstr ""
+"此设置更改停止时间，在用户超过空闲超时时间而断开连接时，该时间会在账单停止请求中发送。"
+"若未选中，发送的停止时间使用上次的数值。"
 
 #: src/usr/local/www/services_captiveportal.php:1094
 #: src/etc/inc/authgui.inc:288
@@ -22432,6 +22444,10 @@ msgid ""
 "to the captive portal. If HTTPS logins are enabled, the user will be "
 "redirected to the HTTPS login page."
 msgstr ""
+"若设置此选项，对SSL/HTTPS（端口443）网站的请求将不会被转发到强制网络门户。"
+"这将避免证书错误被呈现给用户，即使HTTPS登录被启用。"
+"用户必须尝试一个到HTTP（端口80）的连接，以转发至强制网络门户。"
+"若HTTPS登录被启用，用户将被重定向到HTTPS登录页面。"
 
 #: src/usr/local/www/services_captiveportal.php:1130
 msgid ""
@@ -22916,6 +22932,9 @@ msgid ""
 "key should be long and random to protect the tunnel and its contents. A weak "
 "Pre-Shared Key can lead to a tunnel compromise.%1$s"
 msgstr ""
+"输入预分享的秘钥字符。该秘钥必须在两端保持一致。%1$s"
+"该秘钥应该足够长并且是随机的，以保护隧道及其连接。"
+"一个弱的预分享秘钥会导致隧道危害。%1$s"
 
 #: src/usr/local/www/vpn_ipsec_phase1.php:799
 msgid "*My Certificate"
@@ -22959,7 +22978,7 @@ msgstr "DH组"
 msgid ""
 "Note: Blowfish, 3DES, CAST128, MD5, SHA1, and DH groups 1, 2, 22, 23, and 24 "
 "provide weak security and should be avoided."
-msgstr ""
+msgstr "注意：Blowfish, 3DES, CAST128, MD5, SHA1, 和DH 组1, 2, 22, 23, 和24 提供弱安全性，应该避免使用。"
 
 #: src/usr/local/www/vpn_ipsec_phase1.php:863
 msgid "Add Algorithm"
@@ -23597,6 +23616,10 @@ msgid ""
 "NXDOMAIN from a DNSSEC signed zone. Default is off.%1$s Refer to %2$sRFC "
 "7816%3$s for in-depth information on Query Name Minimization."
 msgstr ""
+"仅发送最小需要的QNAME标签，并尽可能将QTYPE设为A。"
+"Best effort 方法；当上行回复一个RCODE而不是NOERROR时，将发送全QNAME 和原始QTYPE，除非从DNSSEC署名区域接收到NXDOMAIN 。"
+"默认关闭。%1$s参考 %2$sRFC "
+"7816%3$s 获取有关查询名字最小化的深入信息。"
 
 #: src/usr/local/www/services_unbound_advanced.php:274
 msgid "Strict Query Name Minimization"
@@ -23610,6 +23633,8 @@ msgid ""
 "you are doing. This option only has effect when Query Name Minimization is "
 "enabled. Default is off."
 msgstr ""
+"严格模式的QNAME最小化。%1$s当此选项启用时，大量域将解析失败。"
+"%2$s 仅在您了解的情况下使用。此选项仅在查询名字最小化启用时才有效。默认关闭。"
 
 #: src/usr/local/www/services_unbound_advanced.php:281
 msgid "Advanced Resolver Options"
@@ -24346,7 +24371,7 @@ msgstr "阶段 2建议提案（SA /密钥交换） "
 msgid ""
 "Encapsulating Security Payload (ESP) is encryption, Authentication Header "
 "(AH) is authentication only."
-msgstr ""
+msgstr "封装安全载荷（ESP）是加密，认证头（AH）只是认证。"
 
 #: src/usr/local/www/vpn_ipsec_phase2.php:635
 msgid "*Encryption Algorithms"
@@ -24356,7 +24381,7 @@ msgstr "*加密算法"
 msgid ""
 "Note: Blowfish, 3DES, and CAST128 provide weak security and should be "
 "avoided."
-msgstr ""
+msgstr "注意：Blowfish, 3DES, 和CAST128提供安全性较弱，应避免使用。"
 
 #: src/usr/local/www/vpn_ipsec_phase2.php:673
 msgid "*Hash Algorithms"
@@ -24364,7 +24389,7 @@ msgstr "*哈希算法"
 
 #: src/usr/local/www/vpn_ipsec_phase2.php:685
 msgid "Note: MD5 and SHA1 provide weak security and should be avoided."
-msgstr ""
+msgstr "注意：MD5和SHA1提供安全性较弱，应避免使用。"
 
 #: src/usr/local/www/vpn_ipsec_phase2.php:696
 msgid "PFS key group"
@@ -24372,7 +24397,7 @@ msgstr "PFS密钥组 "
 
 #: src/usr/local/www/vpn_ipsec_phase2.php:706
 msgid "Specifies how often the connection must be rekeyed, in seconds"
-msgstr ""
+msgstr "指明此连接需要多久更新秘钥，单位为秒。"
 
 #: src/usr/local/www/vpn_ipsec_phase2.php:714
 msgid "Automatically ping host"
@@ -24569,7 +24594,7 @@ msgstr "接口描述不能以pkg_开头"
 msgid ""
 "In order to block bogon networks the Firewall Maximum Table Entries value in "
 "System / Advanced / Firewall must be increased at least to %s."
-msgstr ""
+msgstr "为阻止bogon 网络，在系统/高级/防火墙下的防火墙最大表项数值必须增加至少 %s。"
 
 #: src/usr/local/www/interfaces.php:575
 msgid ""
@@ -24759,7 +24784,7 @@ msgstr "必须指定有效的IPv6网关。"
 
 #: src/usr/local/www/interfaces.php:831
 msgid "The service name may not contain quote characters."
-msgstr ""
+msgstr "服务名称可能不包含引用字符。"
 
 #: src/usr/local/www/interfaces.php:848
 msgid "A valid PPTP local IP address must be specified."
@@ -24953,7 +24978,7 @@ msgstr "IPv4/IPv6配置"
 #: src/usr/local/www/interfaces.php:1896
 msgid ""
 "The MAC address of a VLAN interface must be set on its parent interface"
-msgstr ""
+msgstr "VLAN接口的MAC地址必须设置在其父接口上。"
 
 #: src/usr/local/www/interfaces.php:1899
 #, php-format
@@ -26129,14 +26154,14 @@ msgstr "启用 SSL/TLS"
 
 #: src/usr/local/www/system_advanced_notifications.php:277
 msgid "Validate SSL/TLS"
-msgstr ""
+msgstr "验证SSL/TLS"
 
 #: src/usr/local/www/system_advanced_notifications.php:280
 msgid ""
 "When disabled, the server certificate will not be validated. Encryption will "
 "still be used if available, but the identity of the server will not be "
 "confirmed."
-msgstr ""
+msgstr "当禁用时，服务器证书将不被验证。如可能则加密仍将被使用，但服务器身份将不被确认。"
 
 #: src/usr/local/www/system_advanced_notifications.php:285
 msgid "From e-mail address"
@@ -26525,16 +26550,16 @@ msgstr "默认网关 "
 
 #: src/usr/local/www/system_gateways.php:432
 msgid "Default gateway IPv4"
-msgstr ""
+msgstr "默认网关IPv4"
 
 #: src/usr/local/www/system_gateways.php:435
 #: src/usr/local/www/system_gateways.php:442
 msgid "Select the gateway or gatewaygroup to use as the default gateway."
-msgstr ""
+msgstr "选择用作默认网关的网关或网关组。"
 
 #: src/usr/local/www/system_gateways.php:439
 msgid "Default gateway IPv6"
-msgstr ""
+msgstr "默认网关IPv6"
 
 #: src/usr/local/www/services_dnsmasq_edit.php:202
 #, php-format
@@ -26732,6 +26757,10 @@ msgid ""
 "not the data channel.%1$sThe server and all clients must have the same "
 "setting. While SHA1 is the default for OpenVPN, this algorithm is insecure. "
 msgstr ""
+"该算法用于使用TLS秘钥时认证数据通道和控制通道数据包。"
+"%1$s当使用AEAD加密算法模式时，例如AES-GCM，该摘要仅用于控制通道，而非数据通道。 "
+"%1$s服务器和所有客户端必须使用相同设置。"
+"当OpenVPN默认为SHA1时，该算法不安全。"
 
 #: src/usr/local/www/vpn_openvpn_server.php:963
 msgid "Do Not Check"
@@ -27381,7 +27410,7 @@ msgstr "从LAN子网将流量排除到IPsec的LAN IP地址。"
 
 #: src/usr/local/www/vpn_ipsec_settings.php:357
 msgid "Asynchronous Cryptography"
-msgstr ""
+msgstr "异步加密"
 
 #: src/usr/local/www/vpn_ipsec_settings.php:360
 msgid ""
@@ -27389,6 +27418,8 @@ msgid ""
 " Jobs are handled in the order they are received so that packets will be "
 "reinjected in the correct order."
 msgstr ""
+"允许加密(9) 任务被分发至多线程以提高性能。"
+"任务按照收到它们的顺序处理，以便按照正确的顺序重新注入数据包。"
 
 #: src/usr/local/www/graph_cpu.php:76
 msgid "Cannot get CPU load"
@@ -28257,7 +28288,7 @@ msgstr "在系统面板保存图片窗口小部件。"
 
 #: src/usr/local/www/widgets/widgets/picture.widget.php:95
 msgid "New pictures:"
-msgstr ""
+msgstr "新图片："
 
 #: src/usr/local/www/widgets/widgets/carp_status.widget.php:89
 msgid "No CARP Interfaces Defined."
@@ -28736,11 +28767,11 @@ msgstr "目的前缀"
 
 #: src/usr/local/www/firewall_nat_npt_edit.php:101
 msgid "The specified source address is not a valid IPv6 prefix"
-msgstr ""
+msgstr "指定的源地址不是有效IPv6前缀"
 
 #: src/usr/local/www/firewall_nat_npt_edit.php:104
 msgid "The specified destination address is not a valid IPv6 prefix"
-msgstr ""
+msgstr "指定的目的地址不是有效IPv6前缀"
 
 #: src/usr/local/www/firewall_nat_npt_edit.php:135
 msgid "Firewall: NAT: NPt - saved/edited NPt mapping."
@@ -29145,11 +29176,11 @@ msgstr "最高"
 
 #: src/etc/inc/ipsec.inc:80
 msgid "E-mail address"
-msgstr ""
+msgstr "电子邮件地址"
 
 #: src/etc/inc/ipsec.inc:81
 msgid "User Fully Qualified Domain Name"
-msgstr ""
+msgstr "用户完全限定域名"
 
 #: src/etc/inc/ipsec.inc:91
 msgid "My IP address"
@@ -29217,7 +29248,7 @@ msgstr "IPv6隧道"
 
 #: src/etc/inc/ipsec.inc:202
 msgid "Routed (VTI)"
-msgstr ""
+msgstr "路由（VTI）"
 
 #: src/etc/inc/ipsec.inc:213
 msgid "off"
@@ -29851,43 +29882,43 @@ msgstr "错误！ ldap_get_groups（）无法绑定到服务器 %s。"
 
 #: src/etc/inc/auth.inc:1368
 msgid "Invalid Login."
-msgstr ""
+msgstr "无效登录。"
 
 #: src/etc/inc/auth.inc:1373
 msgid "ERROR! unable to find ldap_connect() function."
-msgstr ""
+msgstr "错误！无法找到ldap_connect()函数。"
 
 #: src/etc/inc/auth.inc:1374 src/etc/inc/auth.inc:1430
 #: src/etc/inc/auth.inc:1588
 msgid "Internal error during authentication."
-msgstr ""
+msgstr "认证中内部错误。"
 
 #: src/etc/inc/auth.inc:1429
 msgid ""
 "ERROR! could not find details of the LDAP server used for authentication."
-msgstr ""
+msgstr "错误！无法找到认证使用的LDAP服务器细节。"
 
 #: src/etc/inc/auth.inc:1451
 #, php-format
 msgid "ERROR! could not connect to LDAP server %s using STARTTLS."
-msgstr ""
+msgstr "错误！无法使用STARTTLS连接LDAP服务器%s。"
 
 #: src/etc/inc/auth.inc:1452 src/etc/inc/auth.inc:1460
 #: src/etc/inc/auth.inc:1479 src/etc/inc/auth.inc:1635
 #: src/etc/inc/auth.inc:1679
 msgid "Error : could not connect to authentication server."
-msgstr ""
+msgstr "错误！无法连接认证服务器。"
 
 #: src/etc/inc/auth.inc:1459
 #, php-format
 msgid "ERROR! Could not connect to server %s."
-msgstr ""
+msgstr "错误！无法连接服务器%s。"
 
 #: src/etc/inc/auth.inc:1478
 #, php-format
 msgid ""
 "ERROR! Could not bind to LDAP server %s. Please check the bind credentials."
-msgstr ""
+msgstr "错误！无法绑定LDAP服务器%s。请检查绑定凭证。"
 
 #: src/etc/inc/auth.inc:1497
 #, php-format
@@ -29907,16 +29938,16 @@ msgstr "搜索结果错误: %s"
 #: src/etc/inc/auth.inc:1538
 #, php-format
 msgid "ERROR! LDAP search failed, no user matching %s was found."
-msgstr ""
+msgstr "错误！LDAP搜索失败，未找到匹配%s的用户。"
 
 #: src/etc/inc/auth.inc:1540
 #, php-format
 msgid "ERROR! LDAP search failed, multiple users matching %s were found."
-msgstr ""
+msgstr "错误！LDAP搜索失败，找到了多个匹配%s的用户。"
 
 #: src/etc/inc/auth.inc:1543
 msgid "Invalid login specified."
-msgstr ""
+msgstr "指定了无效登录。"
 
 #: src/etc/inc/auth.inc:1551
 #, php-format
@@ -29931,12 +29962,12 @@ msgstr "成功登录%1$s，通过 LDAP服务器 %2$s， DN = %3$s."
 #: src/etc/inc/auth.inc:1587
 msgid ""
 "ERROR! could not find details of the RADIUS server used for authentication."
-msgstr ""
+msgstr "错误！未找到认证使用的RADIUS服务器细节。"
 
 #: src/etc/inc/auth.inc:1634 src/etc/inc/auth.inc:1678
 #, php-format
 msgid "Error during RADIUS authentication : %s"
-msgstr ""
+msgstr "RADIUS认证中错误：%s"
 
 #: src/etc/inc/auth.inc:1817
 msgid "Widget configuration has been changed."
@@ -29959,7 +29990,7 @@ msgstr "用户名或密码不正确"
 #: src/etc/inc/auth.inc:1983
 #, php-format
 msgid "webConfigurator authentication error for user '%1$s' from: %2$s"
-msgstr ""
+msgstr "用户'%1$s' 的webConfigurator认证错误，来自： %2$s"
 
 #: src/etc/inc/auth.inc:2028
 #, php-format
@@ -29973,11 +30004,11 @@ msgstr "用户'%1$s' 已注销：%2$s"
 
 #: src/etc/inc/auth.inc:2080
 msgid " is developed and maintained by "
-msgstr ""
+msgstr "开发和维护者是"
 
 #: src/etc/inc/auth.inc:2083
 msgid " View license."
-msgstr ""
+msgstr " 查看许可。"
 
 #: src/etc/inc/rrd.inc:32
 #, php-format
@@ -30055,7 +30086,7 @@ msgstr "远程访问（SSL / TLS +用户认证）"
 
 #: src/etc/inc/openvpn.inc:126
 msgid "Disable Compression, retain compression packet framing [compress]"
-msgstr ""
+msgstr "禁用压缩，保持压缩数据帧【压缩】"
 
 #: src/etc/inc/openvpn.inc:127
 msgid "LZ4 Compression [compress lz4]"
@@ -30072,11 +30103,11 @@ msgstr "LZO压缩[compress lzo，兼容comp-lzo]"
 
 #: src/etc/inc/openvpn.inc:130
 msgid "Enable Compression (stub) [compress stub]"
-msgstr ""
+msgstr "启用压缩（存根）【压缩存根】"
 
 #: src/etc/inc/openvpn.inc:131
 msgid "Enable Compression (stub v2) [compress stub-v2]"
-msgstr ""
+msgstr "启用压缩（存根v2）【压缩存根-v2】"
 
 #: src/etc/inc/openvpn.inc:132
 msgid "Omit Preference (Use OpenVPN Default)"
@@ -30546,15 +30577,15 @@ msgstr "延迟必须为整数。"
 
 #: src/etc/inc/shaper.inc:3848
 msgid "Selected scheduler not recognized."
-msgstr ""
+msgstr "无法识别选择的调度器。"
 
 #: src/etc/inc/shaper.inc:3852 src/etc/inc/shaper.inc:4541
 msgid "Selected AQM not recognized."
-msgstr ""
+msgstr "无法识别选择的AQM。"
 
 #: src/etc/inc/shaper.inc:3855
 msgid "Explicit Congestion Notification is selected, but neither "
-msgstr ""
+msgstr "选择了显式阻塞通知，但"
 
 #: src/etc/inc/shaper.inc:4241
 msgid "Add Schedule"
@@ -30594,52 +30625,52 @@ msgstr "IPv6掩码位%1$s%2$s"
 
 #: src/etc/inc/shaper.inc:4351 src/etc/inc/shaper.inc:4795
 msgid "Queue Management Algorithm"
-msgstr ""
+msgstr "队列管理算法"
 
 #: src/etc/inc/shaper.inc:4356
 msgid ""
 "Active queue management (AQM) is the intelligent drop of network packets "
 "inside the limiter, when it becomes full or gets close to becoming full, "
 "with the goal of reducing network congestion."
-msgstr ""
+msgstr "主动队列管理（AQM）目标是减少网络拥塞，可以在限制器变满或者接近变满时，智能丢弃限制器内的网络数据包。"
 
 #: src/etc/inc/shaper.inc:4363 src/etc/inc/shaper.inc:4807
 msgid "Specifies the queue management algorithm parameters."
-msgstr ""
+msgstr "指定队列管理算法参数。"
 
 #: src/etc/inc/shaper.inc:4367
 msgid "Scheduler"
-msgstr ""
+msgstr "调度器"
 
 #: src/etc/inc/shaper.inc:4372
 msgid ""
 "The scheduler manages the sequence of network packets in the limiter's queue."
 ""
-msgstr ""
+msgstr "调度器管理限制器队列中的网络数据包顺序。"
 
 #: src/etc/inc/shaper.inc:4377
 msgid "Specifies the scheduler parameters."
-msgstr ""
+msgstr "指定调度器参数。"
 
 #: src/etc/inc/shaper.inc:4381 src/etc/inc/shaper.inc:4811
 msgid "Queue length"
-msgstr ""
+msgstr "队列长度"
 
 #: src/etc/inc/shaper.inc:4384
 msgid ""
 "Specifies the length of the limiter's queue, which the scheduler and AQM are "
 "responsible for. This field may be left empty."
-msgstr ""
+msgstr "指定调度器和AQM负责的限制器队列的长度。可为空。"
 
 #: src/etc/inc/shaper.inc:4389 src/etc/inc/shaper.inc:4818
 msgid "ECN"
-msgstr ""
+msgstr "ECN"
 
 #: src/etc/inc/shaper.inc:4393 src/etc/inc/shaper.inc:4822
 msgid ""
 "ECN sets a reserved TCP flag when the queue is nearing or exceeding capacity."
 " Not all AQMs or schedulers support this."
-msgstr ""
+msgstr "ECN在队列接近或超过容量时设置保留的TCP标志。但并非所有AQM或调度器都支持。"
 
 #: src/etc/inc/shaper.inc:4402
 msgid "Delay (ms)"
@@ -30672,7 +30703,7 @@ msgstr "提示：在大多数情况下，应该将该字段留空。它增加了
 
 #: src/etc/inc/shaper.inc:4544
 msgid "Explicit Congestion Notification is selected, but "
-msgstr ""
+msgstr "选择了显式拥塞通知，但 "
 
 #: src/etc/inc/shaper.inc:4550
 msgid "Weight must be an integer between 1 and 100."
@@ -30683,13 +30714,13 @@ msgid ""
 "Active queue management (AQM) is the intelligent drop of network packets "
 "inside this limiter's queue, when it becomes full or gets close to becoming "
 "full, with the goal of reducing network congestion."
-msgstr ""
+msgstr "主动队列管理（AQM)）目标是减少网络拥塞，可在限制器队列变满或接近变满时，智能丢弃其中的网络数据包。"
 
 #: src/etc/inc/shaper.inc:4814
 msgid ""
 "Specifies the length of this queue, which the AQM is responsible for.  This "
 "field may be left empty."
-msgstr ""
+msgstr "指定了AQM负责的此队列的长度。可为空。"
 
 #: src/etc/inc/shaper.inc:4835
 msgid ""
@@ -30750,7 +30781,7 @@ msgstr "可以选择其他主题更改Web配置界面的外观。主题文件位
 
 #: src/etc/inc/pfsense-utils.inc:233
 msgid "The submitted Theme could not be found. Pick a different theme."
-msgstr ""
+msgstr "无法找到提交的主题。选一个其他主题。"
 
 #: src/etc/inc/pfsense-utils.inc:252
 msgid "Scrolls with page"
@@ -30770,7 +30801,7 @@ msgstr "固定选项仅适用于大屏幕。"
 
 #: src/etc/inc/pfsense-utils.inc:258
 msgid "The submitted Top Navigation value is invalid."
-msgstr ""
+msgstr "提交的顶部导航值无效。"
 
 #: src/etc/inc/pfsense-utils.inc:277
 msgid "Default (No hostname)"
@@ -30795,11 +30826,11 @@ msgstr "将导航条中的“帮助”菜单标题替换为系统主机名或FQD
 
 #: src/etc/inc/pfsense-utils.inc:283
 msgid "The submitted Hostname in Menu value is invalid."
-msgstr ""
+msgstr "提交的菜单主机名无效。"
 
 #: src/etc/inc/pfsense-utils.inc:312
 msgid "The submitted Dashboard Columns value is invalid."
-msgstr ""
+msgstr "提交的仪表盘列数值无效。"
 
 #: src/etc/inc/pfsense-utils.inc:329
 msgid "Interfaces Sort"
@@ -30885,7 +30916,7 @@ msgstr "规则信息"
 
 #: src/etc/inc/pfsense-utils.inc:506
 msgid "Tracking ID"
-msgstr ""
+msgstr "跟踪ID"
 
 #: src/etc/inc/pfsense-utils.inc:515 src/etc/inc/pfsense-utils.inc:525
 #, php-format
@@ -31650,14 +31681,14 @@ msgstr "%1$s名称不得为保留字%2$s或%3$s.之一。"
 #, php-format
 msgid ""
 "The %1$s name must not be an IP protocol name such as TCP, UDP, ICMP etc."
-msgstr ""
+msgstr "%1$s 名字不能是IP协议名，比如TCP, UDP, ICMP 等。"
 
 #: src/etc/inc/util.inc:1078
 #, php-format
 msgid ""
 "The %1$s name must not be a well-known or registered TCP or UDP port name "
 "such as ssh, smtp, pop3, tftp, http, openvpn etc."
-msgstr ""
+msgstr "%1$s 名字不能是著名的或注册的 TCP 或UDP端口名，比如ssh, smtp, pop3, tftp, http, openvpn等。"
 
 #: src/etc/inc/util.inc:1732
 #, php-format
@@ -31944,7 +31975,7 @@ msgstr "rrdtool 恢复 -f '%1$s' '%2$s' 失败，返回 %3$s."
 msgid ""
 "The FEC LAGG protocol is deprecated. The %s LAGG interface has been set to "
 "failover."
-msgstr ""
+msgstr "FEC LAGG协议已不再使用。%s LAGG接口已被设为故障切换。"
 
 #: src/etc/inc/authgui.inc:75
 msgid "No page assigned to this user! Click here to logout."
@@ -32210,11 +32241,11 @@ msgstr "不能生成GIFif up - 变量没有定义"
 #: src/etc/inc/interfaces.inc:1325 src/etc/inc/interfaces.inc:1329
 #: src/etc/inc/interfaces.inc:6267
 msgid "IPsec VTI"
-msgstr ""
+msgstr "IPsec VTI"
 
 #: src/etc/inc/interfaces.inc:1463
 msgid "Configuring IPsec VTI interfaces..."
-msgstr ""
+msgstr "正在配置IPsec VTI接口…"
 
 #: src/etc/inc/interfaces.inc:1526 src/etc/inc/interfaces.inc:1556
 #: src/etc/inc/interfaces.inc:1580 src/etc/inc/interfaces.inc:1598
@@ -34579,7 +34610,7 @@ msgstr "完成"
 msgid ""
 "To block bogon IPv6 networks the Firewall Maximum Table Entries value in "
 "System / Advanced / Firewall must be increased at least to %s"
-msgstr ""
+msgstr "为了阻止bogon IPv6 网络，系统/高级/防火墙下的防火墙最大表项数值必须至少增加到%s。"
 
 #: src/etc/inc/filter.inc:798
 #, php-format
@@ -35198,7 +35229,7 @@ msgstr "%1$s 已更新为 %2$s"
 msgid ""
 "Invalid Credentials! Don't forget to use API Key for password field with "
 "Cloudflare."
-msgstr ""
+msgstr "非法凭证！不要忘记将API秘钥用作Cloudflare密码域。"
 
 #: src/etc/inc/dyndns.class:1806
 msgid "Zone or Host ID was not found, check the hostname."
