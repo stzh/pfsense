@@ -37196,3 +37196,7 @@ msgstr ""
 #: src/etc/inc/pfsense-utils.inc:480
 msgid "Do not display state table without a filter"
 msgstr ""
+
+#: src/usr/local/www/widgets/widgets/system_information.widget.php:233
+msgid "HHFW 1.1"
+msgstr ""

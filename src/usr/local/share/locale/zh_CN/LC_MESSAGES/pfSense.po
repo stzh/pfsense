@@ -37758,3 +37758,7 @@ msgstr "在浏览器选项卡中首先显示页面名称"
 #: src/etc/inc/pfsense-utils.inc:480
 msgid "Do not display state table without a filter"
 msgstr "不显示没有过滤器的状态表"
+
+#: src/usr/local/www/widgets/widgets/system_information.widget.php:233
+msgid "HHFW 1.1"
+msgstr "HHFW 1.1"
