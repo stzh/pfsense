@@ -30004,7 +30004,7 @@ msgstr "用户'%1$s' 已注销：%2$s"
 
 #: src/etc/inc/auth.inc:2080
 msgid " is developed and maintained by "
-msgstr "开发和维护者是"
+msgstr ""
 
 #: src/etc/inc/auth.inc:2083
 msgid " View license."
