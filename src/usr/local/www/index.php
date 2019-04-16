@@ -184,7 +184,8 @@ if (file_exists("/usr/sbin/swapinfo")) {
 
 ## If it is the first time webConfigurator has been
 ## accessed since initial install show this stuff.
-if (file_exists('/conf/trigger_initial_wizard')) {
+//if (file_exists('/conf/trigger_initial_wizard')) {
+if (0) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
