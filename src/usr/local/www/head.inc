@@ -242,8 +242,8 @@ $system_menu[] = array(gettext("Logout") . " (" . $_SESSION['Username'] . ")", "
 $system_menu[] = array(gettext("Advanced"), "/system_advanced_admin.php");
 //$system_menu[] = array(gettext("Update"), "/pkg_mgr_install.php?id=firmware");
 $system_menu[] = array(gettext("General Setup"), "/system.php");
-$system_menu[] = array(gettext("High Avail. Sync"), "/system_hasync.php");
-$system_menu[] = array(gettext("Package Manager"), "/pkg_mgr_installed.php");
+//$system_menu[] = array(gettext("High Avail. Sync"), "/system_hasync.php");
+//$system_menu[] = array(gettext("Package Manager"), "/pkg_mgr_installed.php");
 //$system_menu[] = array(gettext("Setup Wizard"), "/wizard.php?xml=setup_wizard.xml");
 $system_menu[] = array(gettext("Routing"), "/system_gateways.php");
 $system_menu[] = array(gettext("Cert. Manager"), "/system_camanager.php");
@@ -297,7 +297,7 @@ $interfaces_menu = array_merge($interfaces_top, [array(0 => "-DIVIDER-")], $inte
 
 // Firewall
 $firewall_menu = array();
-$firewall_menu[] = array(gettext("Aliases"), "/firewall_aliases.php");
+//$firewall_menu[] = array(gettext("Aliases"), "/firewall_aliases.php");
 $firewall_menu[] = array(gettext("NAT"), "/firewall_nat.php");
 $firewall_menu[] = array(gettext("Rules"), "/firewall_rules.php");
 $firewall_menu[] = array(gettext("Schedules"), "/firewall_schedule.php");
@@ -333,7 +333,7 @@ if (count($config['interfaces']) > 1) {
 	$services_menu[] = array(gettext("UPnP &amp; NAT-PMP"), "/pkg_edit.php?xml=miniupnpd.xml");
 }
 
-$services_menu[] = array(gettext("Wake-on-LAN"), "/services_wol.php");
+//$services_menu[] = array(gettext("Wake-on-LAN"), "/services_wol.php");
 $services_menu = msort(array_merge($services_menu, return_ext_menu("Services")), 0);
 
 // VPN
@@ -389,8 +389,8 @@ $diagnostics_menu = array();
 $diagnostics_menu[] = array(gettext("ARP Table"), "/diag_arp.php");
 $diagnostics_menu[] = array(gettext("Authentication"), "/diag_authentication.php");
 $diagnostics_menu[] = array(htmlspecialchars(gettext("Backup & Restore")), "/diag_backup.php");
-$diagnostics_menu[] = array(gettext("Command Prompt"), "/diag_command.php");
-$diagnostics_menu[] = array(gettext("DNS Lookup"), "/diag_dns.php");
+//$diagnostics_menu[] = array(gettext("Command Prompt"), "/diag_command.php");
+//$diagnostics_menu[] = array(gettext("DNS Lookup"), "/diag_dns.php");
 //$diagnostics_menu[] = array(gettext("Edit File"), "/diag_edit.php");
 $diagnostics_menu[] = array(gettext("Factory Defaults"), "/diag_defaults.php");
 
@@ -399,16 +399,16 @@ if (file_exists("/var/run/gmirror_active")) {
 }
 
 $diagnostics_menu[] = array(gettext("Halt System"), "/diag_halt.php");
-$diagnostics_menu[] = array(gettext("Limiter Info"), "/diag_limiter_info.php");
+//$diagnostics_menu[] = array(gettext("Limiter Info"), "/diag_limiter_info.php");
 $diagnostics_menu[] = array(gettext("NDP Table"), "/diag_ndp.php");
 $diagnostics_menu[] = array(gettext("Tables"), "/diag_tables.php");
-$diagnostics_menu[] = array(gettext("Ping"), "/diag_ping.php");
+//$diagnostics_menu[] = array(gettext("Ping"), "/diag_ping.php");
 $diagnostics_menu[] = array(gettext("Test Port"), "/diag_testport.php");
-$diagnostics_menu[] = array(gettext("pfInfo"), "/diag_pf_info.php");
-$diagnostics_menu[] = array(gettext("pfTop"), "/diag_pftop.php");
+//$diagnostics_menu[] = array(gettext("pfInfo"), "/diag_pf_info.php");
+//$diagnostics_menu[] = array(gettext("pfTop"), "/diag_pftop.php");
 $diagnostics_menu[] = array(gettext("Reboot"), "/diag_reboot.php");
 $diagnostics_menu[] = array(gettext("Routes"), "/diag_routes.php");
-$diagnostics_menu[] = array(gettext("S.M.A.R.T. Status"), "/diag_smart.php");
+//$diagnostics_menu[] = array(gettext("S.M.A.R.T. Status"), "/diag_smart.php");
 $diagnostics_menu[] = array(gettext("Sockets"), "/diag_sockets.php");
 $diagnostics_menu[] = array(gettext("States"), "/diag_dump_states.php");
 $diagnostics_menu[] = array(gettext("States Summary"), "/diag_states_summary.php");
